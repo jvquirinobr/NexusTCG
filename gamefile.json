@@ -19,20 +19,14 @@
         "layout": {
           "direction": "row",
           "content": [
-            { "section": "ZonaShield" },
+            { "section": "ZonaShield", "width": "20%" },
             {
               "direction": "column",
+              "width": "80%",
               "content": [
                 { "section": "Vanguarda" },
                 { "section": "ZonaEnergia" },
-                {
-                  "direction": "row",
-                  "content": [
-                    { "section": "ZonaEventos" },
-                    { "section": "Deck" },
-                    { "section": "PilhaDescarte" }
-                  ]
-                }
+                { "section": "ZonaEventos" }
               ]
             }
           ]
@@ -41,7 +35,6 @@
           "ZonaShield": {
             "title": "Zona de Shield",
             "isHidden": "no",
-            "height": "LARGE",
             "alignment": "CENTER",
             "maxCards": 9,
             "faceDown": true
@@ -64,21 +57,6 @@
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "LEFT"
-          },
-          "Deck": {
-            "title": "Deck",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "asPile": true,
-            "faceDown": true
-          },
-          "PilhaDescarte": {
-            "title": "Pilha de Descarte",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "asPile": true
           }
         }
       }
