@@ -1,0 +1,30 @@
+{
+  "DBST-1-001": {
+    "id": "DBST-1-001",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Son Goku"
+        },
+        "type": [
+        "Luz",
+        "Alien",
+        "Artista Marcial",
+        "Guerreiro Z",
+        "Super Saiyajin"
+        ],
+        "cost": 8,
+        "image": "https://cdn.uploaded.photo/2026/08/16/1.png"
+      }
+    },
+    "name": "Son Goku",
+    "type": [
+        "Luz",
+        "Alien",
+        "Artista Marcial",
+        "Guerreiro Z",
+        "Super Saiyajin"
+        ],
+    "cost": 8
+  }
+}
