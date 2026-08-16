@@ -17,22 +17,15 @@
       "countersStartingValues": [],
       "sections": {
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "content": [
-            { "section": "ZonaShield", "size": 1 },
+            { "section": "Vanguarda" },
+            { "section": "ZonaEnergia" },
             {
-              "direction": "column",
-              "size": 5,
+              "direction": "row",
               "content": [
-                { "section": "Vanguarda" },
-                { "section": "ZonaEnergia" },
-                {
-                  "direction": "row",
-                  "content": [
-                    { "section": "ZonaEventos", "size": 3 },
-                    { "section": "PilhaDescarte", "size": 1 }
-                  ]
-                }
+                { "section": "ZonaEventos" },
+                { "section": "PilhaDescarte" }
               ]
             }
           ]
@@ -43,7 +36,8 @@
             "isHidden": "no",
             "alignment": "CENTER",
             "maxCards": 9,
-            "faceDown": true
+            "faceDown": true,
+            "side": "LEFT"
           },
           "Vanguarda": {
             "title": "Vanguarda",
