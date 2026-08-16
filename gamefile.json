@@ -19,51 +19,45 @@
         "layout": {
           "direction": "column",
           "content": [
-            { "section": "Vanguarda" },
-            { "section": "ZonaEnergia" },
+            { "section": "ZonaUnidades" },
             {
               "direction": "row",
               "content": [
-                { "section": "ZonaEventos" },
-                { "section": "PilhaDescarte" }
+                { "section": "ZonaEnergia" },
+                { "section": "PilhaDescarte" },
+                { "section": "ZonaPremios" }
               ]
             }
           ]
         },
         "sectionsDict": {
-          "ZonaShield": {
-            "title": "Zona de Shield",
-            "isHidden": "no",
-            "alignment": "CENTER",
-            "maxCards": 9,
-            "faceDown": true,
-            "side": "LEFT"
-          },
-          "Vanguarda": {
-            "title": "Vanguarda",
+          "ZonaUnidades": {
+            "title": "Unidades",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
             "maxCards": 5
           },
           "ZonaEnergia": {
-            "title": "Zona de Energia",
+            "title": "Energia",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
-          },
-          "ZonaEventos": {
-            "title": "Zona de Eventos",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "LEFT"
           },
           "PilhaDescarte": {
-            "title": "Pilha de Descarte",
+            "title": "Cemitério / Descarte",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "asPile": true
+          },
+          "ZonaPremios": {
+            "title": "Prêmios",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "RIGHT",
+            "maxCards": 9,
+            "faceDown": true
           }
         }
       }
