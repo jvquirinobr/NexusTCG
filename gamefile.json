@@ -17,11 +17,50 @@
       "countersStartingValues": [],
       "sections": {
         "layout": {
-          "direction": "column",
-          "content": [{ "section": "Board" }]
+          "direction": "row",
+          "content": [
+            { "section": "ZonaEsquerda", "size": 1 },
+            {
+              "direction": "column",
+              "size": 4,
+              "content": [
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "ZonaCentroCima", "size": 3 },
+                    { "section": "ZonaDireitaCima", "size": 1 }
+                  ]
+                },
+                { "section": "ZonaBase" }
+              ]
+            }
+          ]
         },
         "sectionsDict": {
-          "Board": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
+          "ZonaEsquerda": { 
+            "title": "Zona Esquerda", 
+            "isHidden": "no", 
+            "height": "LARGE", 
+            "alignment": "CENTER" 
+          },
+          "ZonaCentroCima": { 
+            "title": "Centro Cima", 
+            "isHidden": "no", 
+            "height": "MEDIUM", 
+            "alignment": "CENTER" 
+          },
+          "ZonaDireitaCima": { 
+            "title": "Direita Cima", 
+            "isHidden": "no", 
+            "height": "MEDIUM", 
+            "alignment": "CENTER" 
+          },
+          "ZonaBase": { 
+            "title": "Zona Base", 
+            "isHidden": "no", 
+            "height": "MEDIUM", 
+            "alignment": "CENTER" 
+          }
         }
       }
     }
