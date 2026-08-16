@@ -19,10 +19,15 @@
         "layout": {
           "direction": "row",
           "content": [
-            { "section": "ZonaShield", "size": 1 },
+            { 
+              "section": "ZonaShield", 
+              "flex": 1, 
+              "width": "25%" 
+            },
             {
               "direction": "column",
-              "size": 4,
+              "flex": 3,
+              "width": "75%",
               "content": [
                 { "section": "Vanguarda" },
                 { "section": "ZonaEnergia" }
@@ -34,7 +39,7 @@
           "ZonaShield": {
             "title": "Zona de Shield",
             "isHidden": "no",
-            "height": "LARGE",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "maxCards": 9,
             "faceDown": true
