@@ -17,47 +17,68 @@
       "countersStartingValues": [],
       "sections": {
         "layout": {
-          "direction": "column",
+          "direction": "row",
           "content": [
-            { "section": "ZonaUnidades" },
+            { "section": "ZonaShield" },
             {
-              "direction": "row",
+              "direction": "column",
               "content": [
+                { "section": "Vanguarda" },
                 { "section": "ZonaEnergia" },
-                { "section": "PilhaDescarte" },
-                { "section": "ZonaPremios" }
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "ZonaEventos" },
+                    { "section": "Deck" },
+                    { "section": "PilhaDescarte" }
+                  ]
+                }
               ]
             }
           ]
         },
         "sectionsDict": {
-          "ZonaUnidades": {
-            "title": "Unidades",
+          "ZonaShield": {
+            "title": "Zona de Shield",
+            "isHidden": "no",
+            "height": "LARGE",
+            "alignment": "CENTER",
+            "maxCards": 9,
+            "faceDown": true
+          },
+          "Vanguarda": {
+            "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
             "maxCards": 5
           },
           "ZonaEnergia": {
-            "title": "Energia",
+            "title": "Zona de Energia",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+          "ZonaEventos": {
+            "title": "Zona de Eventos",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "asPile": true,
+            "faceDown": true
+          },
           "PilhaDescarte": {
-            "title": "Cemitério / Descarte",
+            "title": "Pilha de Descarte",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "asPile": true
-          },
-          "ZonaPremios": {
-            "title": "Prêmios",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "RIGHT",
-            "maxCards": 9,
-            "faceDown": true
           }
         }
       }
