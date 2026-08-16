@@ -1,7 +1,7 @@
 {
   "name": "Nexus TCG",
   "deckBuilding": {
-    "mainFilters": ["Tipo", "Custo","Unidade","Evento","Lutador","Gladiador","Atirador"],
+    "mainFilters": ["Tipo", "Custo", "Unidade", "Evento", "Lutador", "Gladiador", "Atirador"],
     "formats": [
       { "title": "Standard format", "gameplay": "Standard" }
     ]
@@ -18,16 +18,53 @@
       "sections": {
         "layout": {
           "direction": "column",
-          "content": [{ "section": "Board" }]
+          "content": [
+            { "section": "ZonaUnidades" },
+            {
+              "direction": "row",
+              "content": [
+                { "section": "ZonaEnergia" },
+                { "section": "PilhaDescarte" },
+                { "section": "ZonaPremios" }
+              ]
+            }
+          ]
         },
         "sectionsDict": {
-          "Board": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
+          "ZonaUnidades": {
+            "title": "Unidades",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "maxCards": 5
+          },
+          "ZonaEnergia": {
+            "title": "Energia",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "PilhaDescarte": {
+            "title": "Cemitério / Descarte",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "asPile": true
+          },
+          "ZonaPremios": {
+            "title": "Prêmios",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "RIGHT",
+            "maxCards": 9,
+            "faceDown": true
+          }
         }
       }
     }
   },
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/refs/heads/main/cards.json",
+    "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/16/BackArt.png"
   }
 }
