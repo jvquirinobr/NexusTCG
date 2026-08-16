@@ -19,47 +19,38 @@
         "layout": {
           "direction": "row",
           "content": [
-            { "section": "ZonaEsquerda", "size": 1 },
+            { "section": "ZonaShield", "size": 1 },
             {
               "direction": "column",
               "size": 4,
               "content": [
-                {
-                  "direction": "row",
-                  "content": [
-                    { "section": "ZonaCentroCima", "size": 3 },
-                    { "section": "ZonaDireitaCima", "size": 1 }
-                  ]
-                },
-                { "section": "ZonaBase" }
+                { "section": "Vanguarda" },
+                { "section": "ZonaEnergia" }
               ]
             }
           ]
         },
         "sectionsDict": {
-          "ZonaEsquerda": { 
-            "title": "Zona Esquerda", 
-            "isHidden": "no", 
-            "height": "LARGE", 
-            "alignment": "CENTER" 
+          "ZonaShield": {
+            "title": "Zona de Shield",
+            "isHidden": "no",
+            "height": "LARGE",
+            "alignment": "CENTER",
+            "maxCards": 9,
+            "faceDown": true
           },
-          "ZonaCentroCima": { 
-            "title": "Centro Cima", 
-            "isHidden": "no", 
-            "height": "MEDIUM", 
-            "alignment": "CENTER" 
+          "Vanguarda": {
+            "title": "Vanguarda (máx. 5)",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "maxCards": 5
           },
-          "ZonaDireitaCima": { 
-            "title": "Direita Cima", 
-            "isHidden": "no", 
-            "height": "MEDIUM", 
-            "alignment": "CENTER" 
-          },
-          "ZonaBase": { 
-            "title": "Zona Base", 
-            "isHidden": "no", 
-            "height": "MEDIUM", 
-            "alignment": "CENTER" 
+          "ZonaEnergia": {
+            "title": "Zona de Energia",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
           }
         }
       }
