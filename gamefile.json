@@ -42,11 +42,11 @@
             "height": "SMALL",
             "alignment": "CENTER"
           },
-          "ZonaShield": {
+          "Zona de Shield": {
             "title": "Zona de Shield",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "CENTER"
+            "alignment": "DECK"
           },
           "Vanguarda": {
             "title": "Vanguarda",
@@ -54,7 +54,7 @@
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "ZonaEnergia": {
+          "Zona de Energia": {
             "title": "Zona de Energia",
             "isHidden": "no",
             "height": "MEDIUM",
