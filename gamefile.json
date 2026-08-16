@@ -40,7 +40,7 @@
             "title": "Zona de Shield",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "LEFT",
             "maxCards": 9,
             "faceDown": true
           },
