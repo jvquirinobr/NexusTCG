@@ -34,6 +34,14 @@
           ]
         },
         "sectionsDict": {
+          "Deck": {
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "ZonaShield"
+              }
+            }
+          },
           "ZonaShield": {
             "title": "Zona de Shield",
             "isHidden": "yes",
