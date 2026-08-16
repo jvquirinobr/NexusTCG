@@ -1,0 +1,33 @@
+{
+  "name": "Nexus TCG",
+  "deckBuilding": {
+    "mainFilters": ["Tipo", "Custo","Unidade","Evento","Lutador","Gladiador","Atirador"],
+    "formats": [
+      { "title": "Standard format", "gameplay": "Standard" }
+    ]
+  },
+  "gameplay": {
+    "Standard": {
+      "mulligan": { 
+        "startingHandSize": 7 
+      },
+      "newTurn": { 
+        "drawPerTurn": 1 
+      },
+      "countersStartingValues": [],
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [{ "section": "Board" }]
+        },
+        "sectionsDict": {
+          "Board": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
+        }
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/refs/heads/main/cards.json",
+    "cardBack": "https://cdn.uploaded.photo/2026/08/16/BackArt.png"
+  }
+}
