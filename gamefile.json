@@ -37,14 +37,6 @@
           ]
         },
         "sectionsDict": {
-          "Deck": {
-            "cardActionShortcut": {
-              "action": "MOVE",
-              "actionData": {
-                "destination": "ZonaShield"
-              }
-            }
-          },
           "Stack": {
             "isHidden": "no",
             "height": "SMALL",
