@@ -36,7 +36,7 @@
         "sectionsDict": {
           "ZonaShield": {
             "title": "Zona de Shield",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
