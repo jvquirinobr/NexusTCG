@@ -3,32 +3,20 @@
     "id": "DBST-1-001",
     "face": {
       "front": {
-        "name": {
-          "name": "Son Goku - O Despertar do Super Saiyajin"
-        },
+        "name": { "name": "Son Goku - O Despertar do Super Saiyajin" },
         "type": "Unidade",
         "cost": 8,
-        "power": "7000+",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png",
-        "traits": [
-          "Saiyajin",
-          "Coração Puro"
-        ],
-        "tags": [
-          "Luz",
-          "Alien",
-          "Artista Marcial",
-          "Guerreiro Z",
-          "Super Saiyajin"
-        ],
-        "keywords": [
-          "RAID",
-          "Rush"
-        ]
+        "trait": ["Saiyajin", "Coração Puro"],
+        "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
+        "keywords": ["RAID", "Rush"],
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png"
       }
     },
     "name": "Son Goku - O Despertar do Super Saiyajin",
     "type": "Unidade",
-    "cost": 8
+    "cost": 8,
+    "trait": ["Saiyajin", "Coração Puro"],
+    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
+    "keywords": ["RAID", "Rush"]
   }
 }
