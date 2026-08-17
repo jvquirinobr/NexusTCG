@@ -1,5 +1,6 @@
 {
   "name": "Nexus TCG",
+
   "deckBuilding": {
     "mainFilters": [
       "type",
@@ -10,81 +11,142 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard",
-        "sections": [
-          {
-            "id": "Unidade",
-            "min": 20,
-            "max": 60
-          },
-          {
-            "id": "Unidade Especial",
-            "min": 1,
-            "max": 10
-          }
-        ]
+        "gameplay": "Standard"
       }
     ]
   },
+
   "gameplay": {
     "Standard": {
       "mulligan": {
         "startingHandSize": 7
       },
+
       "newTurn": {
-        "drawOnStart": false,
+        "drawOnStart": true,
         "drawPerTurn": 1
       },
+
       "hideFacedDownCards": true,
+
       "countersStartingValues": [],
+
       "draggableTokens": [
-        { "id": "Queimadura", "name": "Queimadura", "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png" },
-        { "id": "Veneno", "name": "Veneno", "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png" },
-        { "id": "Paralisia", "name": "Paralisia", "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png" },
-        { "id": "Congelamento", "name": "Congelamento", "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png" },
-        { "id": "Sangramento", "name": "Sangramento", "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png" }
+        {
+          "id": "Queimadura",
+          "name": "Queimadura",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png"
+        },
+        {
+          "id": "Veneno",
+          "name": "Veneno",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
+        },
+        {
+          "id": "Paralisia",
+          "name": "Paralisia",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png"
+        },
+        {
+          "id": "Congelamento",
+          "name": "Congelamento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png"
+        },
+        {
+          "id": "Sangramento",
+          "name": "Sangramento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
+        }
       ],
+
+      "autoPlayFromHand": {
+        "Unidade": "Vanguarda",
+        "UnidadeRaid": "GROUP"
+      },
+
       "beforeGameStart": {
         "initialBoardSetup": [
           {
-            "drawFromTop": "Unidade",
+            "drawFromTop": "Deck",
             "count": 9,
             "destination": "Shields",
-            "overrideState": { "isHidden": true }
+            "overrideState": {
+              "isHidden": "yes"
+            }
           }
         ]
       },
+
       "sections": {
         "layout": {
           "direction": "row",
+
           "content": [
             {
               "direction": "column",
-              "style": { "width": "20%" },
+              "style": {
+                "width": "20%"
+              },
               "content": [
-                { "section": "Shields" },
-                { "section": "Unidade Especial" }
+                {
+                  "section": "Shields"
+                },
+                {
+                  "section": "DeckEspecial"
+                }
               ]
             },
+
             {
               "direction": "column",
-              "style": { "width": "80%" },
+              "style": {
+                "width": "80%"
+              },
               "content": [
-                { "section": "Vanguarda" },
-                { "section": "ZonaEnergia" }
+                {
+                  "section": "Vanguarda"
+                },
+                {
+                  "section": "ZonaEnergia"
+                }
               ]
             }
           ]
         },
+
         "sectionsDict": {
-          "Shields": { "displayedTitle": "Shields", "isHidden": true, "height": "MEDIUM", "alignment": "LEFT" },
-          "Unidade Especial": { "displayedTitle": "Deck Especial", "isHidden": true, "height": "MEDIUM", "alignment": "DECK" },
-          "Vanguarda": { "displayedTitle": "Vanguarda", "isHidden": false, "height": "MEDIUM", "alignment": "CENTER" },
-          "ZonaEnergia": { "displayedTitle": "Zona de Energia", "isHidden": false, "height": "MEDIUM", "alignment": "CENTER" }
+          "Shields": {
+            "displayedTitle": "Shields",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "LEFT"
+          },
+
+          "DeckEspecial": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Deck Especial"
+          },
+
+          "Vanguarda": {
+            "displayedTitle": "Vanguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+
+          "ZonaEnergia": {
+            "displayedTitle": "Zona de Energia",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
         }
       }
     }
   },
+
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png"
