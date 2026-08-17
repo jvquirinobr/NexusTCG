@@ -13,17 +13,8 @@
     },
     "name": "Son Goku O Despertar do Super Saiyajin",
     "type": "Unidade",
-    "tags": [
-      "Luz",
-      "Alien",
-      "Artista Marcial",
-      "Guerreiro Z",
-      "Super Saiyajin"
-    ],
-    "effects": [
-      "RAID",
-      "Rush"
-    ],
+    "tags": ["Saiyajin", "Coração Puro", "Luz", "Alien", "Artista Marcial", "Guerreiro Z","Super Saiyajin"],
+    "effects": ["RAID","Rush"],
     "cost": "8"
   },
     "DBST-1-002": {
@@ -33,36 +24,33 @@
         "name": {
           "name": "Son Goku Terror de Freeza"
         },
-        "type": "Unidade Especial",
+        "type": "Unidade",
         "cost": "8",
         "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Terror-de-Freeza.png"
       }
     },
     "name": "Son Goku Terror de Freeza",
     "type": "Unidade",
-    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z","Super Saiyajin"],
+    "tags": ["Saiyajin", "Coração Puro", "Luz", "Alien", "Artista Marcial", "Guerreiro Z","Super Saiyajin"],
     "effects": ["RAID","Impacto Nulo"],
     "cost": "8"
   },
-  "DBST-1-021": {
-    "id": "DBST-1-021",
+      "DBST-1-003": {
+    "id": "DBST-1-003",
     "face": {
       "front": {
         "name": {
-          "name": "Porunga Diga os seus 3 desejos"
+          "name": "Kuririn Em busca das esferas em Namek"
         },
-        "type": "Unidade Especial",
-        "cost": "X",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
+        "type": "Unidade",
+        "cost": "1",
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Terror-de-Freeza.png"
       }
     },
-    "name": "Porunga Diga os seus 3 desejos",
-    "type": "Unidade Especial",
-    "tags": [
-      "Celestial"
-    ],
-    "effects": [],
-    "cost": "X"
-  }
-  
+    "name": "Kuririn Em busca das esferas em Namek",
+    "type": "Unidade",
+    "tags": ["Humano", "Bom", "Artista Marcial", "Guerreiro Z"]
+    "effects": ["Despertar"]
+    "cost": "1"
+  },
 }
