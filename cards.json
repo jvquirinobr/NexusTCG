@@ -1,18 +1,15 @@
-{
-  "DBST-1-001": {
+[
+  {
     "id": "DBST-1-001",
     "name": "Son Goku",
     "type": "Unidade",
     "cost": 8,
     "tags": [
+      "Unidade",
+      "Lutador",
       "Luz",
       "Alien",
-      "Artista Marcial",
-      "Guerreiro Z",
-      "Super Saiyajin",
-      "Saiyajin",
-      "Coração Puro",
-      "Raid"
+      "Super Saiyajin"
     ],
     "face": {
       "front": {
@@ -20,4 +17,4 @@
       }
     }
   }
-}
+]
