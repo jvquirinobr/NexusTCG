@@ -79,33 +79,40 @@
 
       "sections": {
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "content": [
             {
-              "direction": "column",
-              "style": {
-                "width": "20%"
-              },
+              "direction": "row",
               "content": [
                 {
-                  "section": "Shields"
+                  "section": "Shields",
+                  "style": {
+                    "width": "20%"
+                  }
                 },
                 {
-                  "section": "UnidadesEspeciais"
+                  "section": "Vanguarda",
+                  "style": {
+                    "width": "80%"
+                  }
                 }
               ]
             },
+
             {
-              "direction": "column",
-              "style": {
-                "width": "80%"
-              },
+              "direction": "row",
               "content": [
                 {
-                  "section": "Vanguarda"
+                  "section": "UnidadesEspeciais",
+                  "style": {
+                    "width": "20%"
+                  }
                 },
                 {
-                  "section": "ZonaEnergia"
+                  "section": "ZonaEnergia",
+                  "style": {
+                    "width": "80%"
+                  }
                 }
               ]
             }
