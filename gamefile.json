@@ -36,24 +36,15 @@
         "drawPerTurn": 1
       },
       "hideFacedDownCards": true,
-      "countersStartingValues": [],
-      "draggableTokens": [
-        { "id": "Queimadura", "name": "Queimadura", "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png" },
-        { "id": "Veneno", "name": "Veneno", "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png" },
-        { "id": "Paralisia", "name": "Paralisia", "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png" },
-        { "id": "Congelamento", "name": "Congelamento", "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png" },
-        { "id": "Sangramento", "name": "Sangramento", "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png" }
-      ],
       "beforeGameStart": {
         "initialBoardSetup": [
           {
-            "drawFromTop": "Unidade Especial",
+            "source": "Unidade Especial",
             "count": "all",
-            "destination": "DeckEspecial",
-            "overrideState": { "isHidden": true }
+            "destination": "DeckEspecial"
           },
           {
-            "drawFromTop": "Unidade",
+            "source": "Unidade",
             "count": 9,
             "destination": "Shields",
             "overrideState": { "isHidden": true }
