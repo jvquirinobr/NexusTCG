@@ -1,29 +1,23 @@
 {
-  "DBST-1-001": {
-    "id": "DBST-1-001",
+  "DBST-1-021": {
+    "id": "DBST-1-021",
     "face": {
       "front": {
         "name": {
-          "name": "Son Goku"
+          "name": "Porunga Diga os seus 3 desejos"
         },
         "type": "Unidade",
-        "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/16/1.png"
+        "cost": "X",
+        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
       }
     },
-    "name": "Son Goku",
-    "type": "Unidade",
+    "name": "Porunga Diga os seus 3 desejos",
+    "type": "Unidade Especial",
     "tags": [
-      "Luz",
-      "Alien",
-      "Artista Marcial",
-      "Guerreiro Z",
-      "Super Saiyajin"
+      "Celestial"
     ],
     "effects": [
-      "RAID",
-      "Rush"
     ],
-    "cost": 8
+    "cost": "X"
   }
 }
