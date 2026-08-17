@@ -17,15 +17,15 @@
       "hideFacedDownCards": true,
       "beforeGameStart": {
         "initialBoardSetup": [
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield1" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield2" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield3" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield4" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield5" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield6" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield7" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield8" },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield9" }
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield1", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield2", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield3", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield4", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield5", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield6", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield7", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield8", "overrideState": { "isHidden": "yes" } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield9", "overrideState": { "isHidden": "yes" } }
         ]
       },
       "countersStartingValues": [],
@@ -77,15 +77,15 @@
           ]
         },
         "sectionsDict": {
-          "Shield1": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield2": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield3": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield4": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield5": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield6": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield7": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield8": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "Shield9": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield1": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield2": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield3": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield4": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield5": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield6": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield7": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield8": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Shield9": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
