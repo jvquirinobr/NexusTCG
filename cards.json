@@ -1,18 +1,34 @@
 {
-  "DBST-1-001": {
+  "cardId": {
     "id": "DBST-1-001",
     "face": {
       "front": {
         "name": {
-          "name": "Son Goku O Despertar do Super Saiyajin"
+          "name": "Son Goku - O Despertar do Super Saiyajin"
         },
-        "type": "Unidade",
+        "type": "unidade",
         "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png"
+        "power": "7000+",
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png",
+        "traits": [
+          "Saiyajin",
+          "Coração Puro"
+        ],
+        "tags": [
+          "Luz",
+          "Alien",
+          "Artista Marcial",
+          "Guerreiro Z",
+          "Super Saiyajin"
+        ],
+        "keywords": [
+          "RAID",
+          "Rush"
+        ]
       }
     },
-    "name": "Son Goku O Despertar do Super Saiyajin",
-    "type": "Unidade",
+    "name": "Son Goku - O Despertar do Super Saiyajin",
+    "type": "unidade",
     "cost": 8
   }
 }
