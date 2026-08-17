@@ -11,7 +11,10 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard"
+        "gameplay": "Standard",
+        "customCategories": [
+          "DeckEspecial"
+        ]
       }
     ]
   },
@@ -73,6 +76,14 @@
             "overrideState": {
               "isHidden": "yes"
             }
+          },
+          {
+            "drawFromTop": "DeckEspecial",
+            "count": 1,
+            "destination": "DeckEspecial",
+            "overrideState": {
+              "isHidden": "yes"
+            }
           }
         ]
       },
@@ -90,6 +101,9 @@
               "content": [
                 {
                   "section": "Shields"
+                },
+                {
+                  "section": "DeckEspecial"
                 }
               ]
             },
@@ -116,7 +130,14 @@
             "displayedTitle": "Shields",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "LEFT"
+            "alignment": "DECK"
+          },
+
+          "DeckEspecial": {
+            "displayedTitle": "Deck Especial",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK"
           },
 
           "Vanguarda": {
