@@ -60,7 +60,8 @@
       ],
 
       "autoPlayFromHand": {
-        "Unidade": "Vanguarda"
+        "Unidade": "Vanguarda",
+        "UnidadeRaid": "GROUP"
       },
 
       "beforeGameStart": {
@@ -258,12 +259,14 @@
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
+
           "ZonaEnergia": {
             "title": "Zona de Energia",
             "isHidden": "no",
