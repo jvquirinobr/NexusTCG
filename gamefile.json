@@ -5,7 +5,8 @@
     "mainFilters": [
       "type",
       "cost",
-      "tags"
+      "tags",
+      "effects"
     ],
     "formats": [
       {
