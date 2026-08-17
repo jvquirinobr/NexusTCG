@@ -20,7 +20,7 @@
         "startingHandSize": 7
       },
       "newTurn": {
-        "drawOnStart": true,
+        "drawOnStart": false,
         "drawPerTurn": 1
       },
       "hideFacedDownCards": true,
