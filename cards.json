@@ -1,20 +1,34 @@
-[
-  {
+{
+  "cardId": "DBST-1-001" {
     "id": "DBST-1-001",
-    "name": "Son Goku",
-    "type": "Unidade",
-    "cost": 8,
-    "tags": [
-      "Unidade",
-      "Lutador",
-      "Luz",
-      "Alien",
-      "Super Saiyajin"
-    ],
     "face": {
       "front": {
+        "name": { "name": "Son Goku" },
+        "type": "Unidade",
+        "tags": [
+          "Saiyajin",
+          "Coração Puro",
+          "Luz",
+          "Alien",
+          "Artista Marcial",
+          "Guerreiro Z",
+          "Super Saiyajin",
+          "Raid"
+        "cost": 8,
         "image": "https://cdn.uploaded.photo/2026/08/16/1.png"
       }
-    }
+    },
+    "name": "Son Goku",
+    "type": "Unidade",
+    "tags": [
+          "Saiyajin",
+          "Coração Puro",
+          "Luz",
+          "Alien",
+          "Artista Marcial",
+          "Guerreiro Z",
+          "Super Saiyajin",
+          "Raid"
+    "cost": 8
   }
-]
+}
