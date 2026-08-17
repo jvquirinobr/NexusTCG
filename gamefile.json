@@ -14,6 +14,17 @@
       "newTurn": { 
         "drawPerTurn": 1 
       },
+      "hideFacedDownCards": true,
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          { 
+            "drawFromTop": "Deck", 
+            "count": 9, 
+            "destination": "ZonaShield",
+            "overrideState": { "isHidden": "yes" }
+          }
+        ]
+      },
       "countersStartingValues": [],
       "autoPlayFromHand": {
         "_default": "Vanguarda"
