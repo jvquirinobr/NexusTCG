@@ -23,7 +23,7 @@
       },
 
       "newTurn": {
-        "drawOnStart": true,
+        "drawOnStart": false,
         "drawPerTurn": 1
       },
 
