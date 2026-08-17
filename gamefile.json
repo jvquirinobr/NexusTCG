@@ -68,72 +68,8 @@
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield1",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield2",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield3",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield4",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield5",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield6",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield7",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield8",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield9",
+            "count": 9,
+            "destination": "Shields",
             "overrideState": {
               "isHidden": "yes"
             }
@@ -153,52 +89,7 @@
               },
               "content": [
                 {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Shield1"
-                    },
-                    {
-                      "section": "Shield2"
-                    },
-                    {
-                      "section": "Shield3"
-                    }
-                  ]
-                },
-
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Shield4"
-                    },
-                    {
-                      "section": "Shield5"
-                    },
-                    {
-                      "section": "Shield6"
-                    }
-                  ]
-                },
-
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Shield7"
-                    },
-                    {
-                      "section": "Shield8"
-                    },
-                    {
-                      "section": "Shield9"
-                    }
-                  ]
-                },
-
-                {
-                  "section": "UnidadesEspeciais"
+                  "section": "Shields"
                 }
               ]
             },
@@ -214,6 +105,9 @@
                 },
                 {
                   "section": "ZonaEnergia"
+                },
+                {
+                  "section": "UnidadesEspeciais"
                 }
               ]
             }
@@ -221,76 +115,29 @@
         },
 
         "sectionsDict": {
-          "Shield1": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield2": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield3": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield4": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield5": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield6": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield7": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield8": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "Shield9": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
-          "UnidadesEspeciais": {
-            "title": "Unidades Especiais",
+          "Shields": {
+            "displayedTitle": "Shields",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "LEFT"
+            "alignment": "CENTER"
           },
 
           "Vanguarda": {
-            "title": "Vanguarda",
+            "displayedTitle": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
 
           "ZonaEnergia": {
-            "title": "Zona de Energia",
+            "displayedTitle": "Zona de Energia",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+
+          "UnidadesEspeciais": {
+            "displayedTitle": "Unidades Especiais",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
