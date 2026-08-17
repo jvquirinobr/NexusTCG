@@ -14,8 +14,6 @@
     "name": "Son Goku O Despertar do Super Saiyajin",
     "type": "Unidade",
     "tags": [
-      "Saiyajin",
-      "Coração Puro",
       "Luz",
       "Alien",
       "Artista Marcial",
@@ -44,8 +42,6 @@
     "name": "Son Goku Terror de Freeza",
     "type": "Unidade",
     "tags": [
-      "Saiyajin",
-      "Coração Puro",
       "Luz",
       "Alien",
       "Artista Marcial",
@@ -57,31 +53,5 @@
       "Impacto Nulo"
     ],
     "cost": "8"
-  },
-
-  "DBST-1-003": {
-    "id": "DBST-1-003",
-    "face": {
-      "front": {
-        "name": {
-          "name": "Kuririn Em busca das esferas em Namek"
-        },
-        "type": "Unidade",
-        "cost": "1",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Em-busca-das-esferas-em-Namek.png"
-      }
-    },
-    "name": "Kuririn Em busca das esferas em Namek",
-    "type": "Unidade",
-    "tags": [
-      "Humano",
-      "Bom",
-      "Artista Marcial",
-      "Guerreiro Z"
-    ],
-    "effects": [
-      "Despertar"
-    ],
-    "cost": "1"
   }
 }
