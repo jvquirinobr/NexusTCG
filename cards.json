@@ -14,12 +14,12 @@
     "name": "Son Goku",
     "type": "Unidade",
     "tags": [
-        "Luz",
-        "Alien",
-        "Artista Marcial",
-        "Guerreiro Z",
-        "Super Saiyajin"
-        ],
+      "Luz",
+      "Alien",
+      "Artista Marcial",
+      "Guerreiro Z",
+      "Super Saiyajin"
+    ],
     "effects": [
       "RAID",
       "Rush"
