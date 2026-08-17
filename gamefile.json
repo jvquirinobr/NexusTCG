@@ -15,6 +15,9 @@
         "drawPerTurn": 1 
       },
       "countersStartingValues": [],
+      "autoPlayFromHand": {
+        "_default": "Vanguarda"
+      },
       "sections": {
         "layout": {
           "direction": "row",
@@ -38,7 +41,7 @@
             "title": "Zona de Shield",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "CENTER"
+            "alignment": "DECK"
           },
           "Vanguarda": {
             "title": "Vanguarda",
