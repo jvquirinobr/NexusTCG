@@ -40,22 +40,22 @@
         {
           "id": "Veneno",
           "name": "Veneno",
-          "image": ""
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
         },
         {
           "id": "Paralisia",
           "name": "Paralisia",
-          "image": ""
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png"
         },
         {
           "id": "Congelamento",
           "name": "Congelamento",
-          "image": ""
+          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png"
         },
         {
           "id": "Sangramento",
           "name": "Sangramento",
-          "image": ""
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
         }
       ],
 
