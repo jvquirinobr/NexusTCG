@@ -13,11 +13,23 @@
     },
     "name": "Son Goku O Despertar do Super Saiyajin",
     "type": "Unidade",
-    "tags": ["Saiyajin", "Coração Puro", "Luz", "Alien", "Artista Marcial", "Guerreiro Z","Super Saiyajin"],
-    "effects": ["RAID","Rush"],
+    "tags": [
+      "Saiyajin",
+      "Coração Puro",
+      "Luz",
+      "Alien",
+      "Artista Marcial",
+      "Guerreiro Z",
+      "Super Saiyajin"
+    ],
+    "effects": [
+      "RAID",
+      "Rush"
+    ],
     "cost": "8"
   },
-    "DBST-1-002": {
+
+  "DBST-1-002": {
     "id": "DBST-1-002",
     "face": {
       "front": {
@@ -31,11 +43,23 @@
     },
     "name": "Son Goku Terror de Freeza",
     "type": "Unidade",
-    "tags": ["Saiyajin", "Coração Puro", "Luz", "Alien", "Artista Marcial", "Guerreiro Z","Super Saiyajin"],
-    "effects": ["RAID","Impacto Nulo"],
+    "tags": [
+      "Saiyajin",
+      "Coração Puro",
+      "Luz",
+      "Alien",
+      "Artista Marcial",
+      "Guerreiro Z",
+      "Super Saiyajin"
+    ],
+    "effects": [
+      "RAID",
+      "Impacto Nulo"
+    ],
     "cost": "8"
   },
-      "DBST-1-003": {
+
+  "DBST-1-003": {
     "id": "DBST-1-003",
     "face": {
       "front": {
@@ -49,8 +73,15 @@
     },
     "name": "Kuririn Em busca das esferas em Namek",
     "type": "Unidade",
-    "tags": ["Humano", "Bom", "Artista Marcial", "Guerreiro Z"],
-    "effects": ["Despertar"],
+    "tags": [
+      "Humano",
+      "Bom",
+      "Artista Marcial",
+      "Guerreiro Z"
+    ],
+    "effects": [
+      "Despertar"
+    ],
     "cost": "1"
-  },
+  }
 }
