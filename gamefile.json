@@ -2,12 +2,12 @@
   "name": "Nexus TCG",
 
   "deckBuilding": {
-    "mainFilters": [
-      "type",
-      "cost",
-      "tags",
-      "effects"
-    ],
+   "mainFilters": [
+  "type",
+  "cost",
+  "tags",
+  "effects"
+]
     "formats": [
       {
         "title": "Standard format",
