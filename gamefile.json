@@ -17,7 +17,7 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "startingHandSize": 7
+        "startingHandSize": 6
       },
       "newTurn": {
         "drawOnStart": false,
