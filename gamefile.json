@@ -127,9 +127,9 @@
 
           "DeckEspecial": {
             "displayedTitle": "Deck Especial",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "LEFT"
+            "alignment": "DECK"
           },
 
           "Vanguarda": {
