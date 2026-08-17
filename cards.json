@@ -1,16 +1,18 @@
 {
-  "cardId": {
-    "id": "cardId",
+  "DBST-1-001": {
+    "id": "DBST-1-001",
     "face": {
       "front": {
-        "name": { "name": "cardName" },
-        "type": "cardType",
-        "cost": 3,
-        "image": "https://example.com/cards/cardId.webp"
+        "name": {
+          "name": "Son Goku O Despertar do Super Saiyajin"
+        },
+        "type": "Unidade",
+        "cost": 8,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png"
       }
     },
-    "name": "cardName",
-    "type": "cardType",
-    "cost": 3
+    "name": "Son Goku O Despertar do Super Saiyajin",
+    "type": "Unidade",
+    "cost": 8
   }
 }
