@@ -1,6 +1,5 @@
 {
   "name": "Nexus TCG",
-
   "deckBuilding": {
     "mainFilters": [
       "type",
@@ -15,22 +14,17 @@
       }
     ]
   },
-
   "gameplay": {
     "Standard": {
       "mulligan": {
         "startingHandSize": 7
       },
-
       "newTurn": {
         "drawOnStart": true,
         "drawPerTurn": 1
       },
-
       "hideFacedDownCards": true,
-
       "countersStartingValues": [],
-
       "draggableTokens": [
         {
           "id": "Queimadura",
@@ -58,12 +52,10 @@
           "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
         }
       ],
-
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
         "UnidadeRaid": "GROUP"
       },
-
       "beforeGameStart": {
         "initialBoardSetup": [
           {
@@ -76,11 +68,9 @@
           }
         ]
       },
-
       "sections": {
         "layout": {
           "direction": "row",
-
           "content": [
             {
               "direction": "column",
@@ -93,7 +83,6 @@
                 }
               ]
             },
-
             {
               "direction": "column",
               "style": {
@@ -110,7 +99,6 @@
             }
           ]
         },
-
         "sectionsDict": {
           "Shields": {
             "displayedTitle": "Shields",
@@ -118,14 +106,12 @@
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
-
           "Vanguarda": {
             "displayedTitle": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-
           "ZonaEnergia": {
             "displayedTitle": "Zona de Energia",
             "isHidden": "no",
@@ -136,7 +122,6 @@
       }
     }
   },
-
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png"
