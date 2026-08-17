@@ -68,8 +68,72 @@
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
-            "count": 9,
-            "destination": "Shields",
+            "count": 1,
+            "destination": "Shield1",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield2",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield3",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield4",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield5",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield6",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield7",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield8",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield9",
             "overrideState": {
               "isHidden": "yes"
             }
@@ -89,7 +153,52 @@
               },
               "content": [
                 {
-                  "section": "Shields"
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Shield1"
+                    },
+                    {
+                      "section": "Shield2"
+                    },
+                    {
+                      "section": "Shield3"
+                    }
+                  ]
+                },
+
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Shield4"
+                    },
+                    {
+                      "section": "Shield5"
+                    },
+                    {
+                      "section": "Shield6"
+                    }
+                  ]
+                },
+
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Shield7"
+                    },
+                    {
+                      "section": "Shield8"
+                    },
+                    {
+                      "section": "Shield9"
+                    }
+                  ]
+                },
+
+                {
+                  "section": "UnidadesEspeciais"
                 }
               ]
             },
@@ -112,22 +221,76 @@
         },
 
         "sectionsDict": {
-          "Shields": {
-            "displayedTitle": "Shields",
+          "Shield1": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield2": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield3": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield4": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield5": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield6": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield7": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield8": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "Shield9": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
+          "UnidadesEspeciais": {
+            "title": "Unidades Especiais",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "CENTER"
+            "alignment": "LEFT"
           },
 
           "Vanguarda": {
-            "displayedTitle": "Vanguarda",
+            "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
 
           "ZonaEnergia": {
-            "displayedTitle": "Zona de Energia",
+            "title": "Zona de Energia",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
