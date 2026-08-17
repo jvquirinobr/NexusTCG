@@ -36,15 +36,18 @@
         "drawPerTurn": 1
       },
       "hideFacedDownCards": true,
+      "countersStartingValues": [],
+      "draggableTokens": [
+        { "id": "Queimadura", "name": "Queimadura", "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png" },
+        { "id": "Veneno", "name": "Veneno", "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png" },
+        { "id": "Paralisia", "name": "Paralisia", "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png" },
+        { "id": "Congelamento", "name": "Congelamento", "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png" },
+        { "id": "Sangramento", "name": "Sangramento", "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png" }
+      ],
       "beforeGameStart": {
         "initialBoardSetup": [
           {
-            "source": "Unidade Especial",
-            "count": "all",
-            "destination": "DeckEspecial"
-          },
-          {
-            "source": "Unidade",
+            "drawFromTop": "Unidade",
             "count": 9,
             "destination": "Shields",
             "overrideState": { "isHidden": true }
@@ -60,7 +63,7 @@
               "style": { "width": "20%" },
               "content": [
                 { "section": "Shields" },
-                { "section": "DeckEspecial" }
+                { "section": "Unidade Especial" }
               ]
             },
             {
@@ -75,7 +78,7 @@
         },
         "sectionsDict": {
           "Shields": { "displayedTitle": "Shields", "isHidden": true, "height": "MEDIUM", "alignment": "LEFT" },
-          "DeckEspecial": { "displayedTitle": "Deck Especial", "isHidden": true, "height": "MEDIUM", "alignment": "DECK" },
+          "Unidade Especial": { "displayedTitle": "Deck Especial", "isHidden": true, "height": "MEDIUM", "alignment": "DECK" },
           "Vanguarda": { "displayedTitle": "Vanguarda", "isHidden": false, "height": "MEDIUM", "alignment": "CENTER" },
           "ZonaEnergia": { "displayedTitle": "Zona de Energia", "isHidden": false, "height": "MEDIUM", "alignment": "CENTER" }
         }
