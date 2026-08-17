@@ -36,15 +36,6 @@
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
-            "count": "all",
-            "filters": {
-              "type": "Unidade Especial"
-            },
-            "destination": "DeckEspecial",
-            "overrideState": { "isHidden": true }
-          },
-          {
-            "drawFromTop": "Deck",
             "count": 9,
             "destination": "Shields",
             "overrideState": { "isHidden": true }
