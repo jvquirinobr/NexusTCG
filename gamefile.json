@@ -5,8 +5,10 @@
     "mainFilters": [
       "type",
       "cost",
+      "power",
+      "traits",
       "tags",
-      "effects"
+      "Keywords"
     ],
     "formats": [
       {
