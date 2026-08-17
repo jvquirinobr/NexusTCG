@@ -90,6 +90,9 @@
               "content": [
                 {
                   "section": "Shields"
+                },
+                {
+                  "section": "DeckEspecial"
                 }
               ]
             },
@@ -117,6 +120,13 @@
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "LEFT"
+          },
+
+          "DeckEspecial": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Deck Especial"
           },
 
           "Vanguarda": {
