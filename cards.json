@@ -20,7 +20,7 @@
         "Guerreiro Z",
         "Super Saiyajin"
         ],
-    "Effect": [
+    "effects": [
       "RAID",
       "Rush"
     ]
