@@ -279,10 +279,9 @@
           },
 
           "DeckEspecial": {
-            "title": "Deck Especial",
-            "isHidden": "owner",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "Right"
           }
         }
       }
