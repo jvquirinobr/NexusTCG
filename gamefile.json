@@ -93,6 +93,9 @@
               "content": [
                 {
                   "section": "Shields"
+                },
+                {
+                  "section": "ZonaAbaixoShield"
                 }
               ]
             },
@@ -118,6 +121,13 @@
           "Shields": {
             "displayedTitle": "Shields",
             "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "LEFT"
+          },
+
+          "ZonaAbaixoShield": {
+            "displayedTitle": "Zona Abaixo do Shield",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
