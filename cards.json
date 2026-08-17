@@ -1,1 +1,16 @@
-
+{
+  "cardId": {
+    "id": "cardId",
+    "face": {
+      "front": {
+        "name": { "name": "cardName" },
+        "type": "cardType",
+        "cost": 3,
+        "image": "https://example.com/cards/cardId.webp"
+      }
+    },
+    "name": "cardName",
+    "type": "cardType",
+    "cost": 3
+  }
+}
