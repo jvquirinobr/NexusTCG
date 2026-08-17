@@ -19,7 +19,10 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "startingHandSize": 7
+        "startingHandSize": 7,
+        "mulliganCount": {
+          "max": 0
+        }
       },
 
       "newTurn": {
