@@ -8,6 +8,9 @@
         },
         "type": "Unidade",
         "cost": "X",
+            "tags": [
+      "Celestial"
+    ],
         "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
       }
     },
