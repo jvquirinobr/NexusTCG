@@ -1,30 +1,10 @@
 {
   "DBST-1-001": {
     "id": "DBST-1-001",
-    "face": {
-      "front": {
-        "name": {
-          "name": "Son Goku"
-        },
-        "type": "Unidade",
-        "cost": 8,
-        "tags": [
-          "Luz",
-          "Alien",
-          "Artista Marcial",
-          "Guerreiro Z",
-          "Super Saiyajin",
-          "Saiyajin",
-          "Coração Puro",
-          "Raid"
-        ],
-        "Categoria": "Lutador",
-        "image": "https://cdn.uploaded.photo/2026/08/16/1.png"
-      }
-    },
     "name": "Son Goku",
     "type": "Unidade",
-    "Tags": [
+    "cost": 8,
+    "tags": [
       "Luz",
       "Alien",
       "Artista Marcial",
@@ -34,6 +14,10 @@
       "Coração Puro",
       "Raid"
     ],
-    "cost": 8
+    "face": {
+      "front": {
+        "image": "https://cdn.uploaded.photo/2026/08/16/1.png"
+      }
+    }
   }
 }
