@@ -80,7 +80,6 @@
       "sections": {
         "layout": {
           "direction": "row",
-
           "content": [
             {
               "direction": "column",
@@ -96,7 +95,6 @@
                 }
               ]
             },
-
             {
               "direction": "column",
               "style": {
@@ -126,7 +124,7 @@
             "displayedTitle": "Unidades Especiais",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "LEFT"
+            "alignment": "CENTER"
           },
 
           "Vanguarda": {
