@@ -17,15 +17,15 @@
       "hideFacedDownCards": true,
       "beforeGameStart": {
         "initialBoardSetup": [
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield1", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield2", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield3", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield4", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield5", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield6", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield7", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield8", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield9", "overrideState": { "isHidden": "yes" } }
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield1", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield2", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield3", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield4", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield5", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield6", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield7", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield8", "overrideState": { "isHidden": true } },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield9", "overrideState": { "isHidden": true } }
         ]
       },
       "countersStartingValues": [],
@@ -38,7 +38,7 @@
           "content": [
             {
               "direction": "column",
-              "style": { "width": "25%" },
+              "style": { "width": "20%" },
               "content": [
                 {
                   "direction": "row",
@@ -68,7 +68,7 @@
             },
             {
               "direction": "column",
-              "style": { "width": "75%" },
+              "style": { "width": "80%" },
               "content": [
                 { "section": "Vanguarda" },
                 { "section": "ZonaEnergia" }
