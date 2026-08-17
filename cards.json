@@ -19,4 +19,24 @@
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Rush"]
   }
+   "DBST-1-002": {
+    "id": "DBST-1-002",
+    "face": {
+      "front": {
+        "name": { "name": "Son Goku - Terror de Freeza" },
+        "type": "Unidade",
+        "cost": 8,
+        "trait": ["Saiyajin", "Coração Puro"],
+        "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
+        "keywords": ["RAID", "Impacto Nulo"],
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Terror-de-Freeza.png"
+      }
+    },
+    "name": "Son Goku - Terror de Freeza",
+    "type": "Unidade",
+    "cost": 8,
+    "trait": ["Saiyajin", "Coração Puro"],
+    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
+    "keywords": ["RAID", "Impacto Nulo"]
+  }
 }
