@@ -110,11 +110,10 @@
             "alignment": "LEFT"
           },
           "DeckEspecial": {
-  "isHidden": "opponent-only",
-  "height": "MEDIUM",
-  "alignment": "DECK",
-  "displayedTitle": "Deck Especial"
-}
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Deck Especial"
           },
           "Vanguarda": {
             "displayedTitle": "Vanguarda",
