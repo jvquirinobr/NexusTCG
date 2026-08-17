@@ -26,32 +26,24 @@
     ],
     "cost": "8"
   },
-
-  "DBST-1-002": {
-    "id": "DBST-1-002",
+  "DBST-1-021": {
+    "id": "DBST-1-021",
     "face": {
       "front": {
         "name": {
-          "name": "Son Goku Terror de Freeza"
+          "name": "Porunga Diga os seus 3 desejos"
         },
-        "type": "Unidade",
-        "cost": "8",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Terror-de-Freeza.png"
+        "type": "Unidade Especial",
+        "cost": "X",
+        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
       }
     },
-    "name": "Son Goku Terror de Freeza",
-    "type": "Unidade",
+    "name": "Porunga Diga os seus 3 desejos",
+    "type": "Unidade Especial",
     "tags": [
-      "Luz",
-      "Alien",
-      "Artista Marcial",
-      "Guerreiro Z",
-      "Super Saiyajin"
+      "Celestial"
     ],
-    "effects": [
-      "RAID",
-      "Impacto Nulo"
-    ],
-    "cost": "8"
+    "effects": [],
+    "cost": "X"
   }
 }
