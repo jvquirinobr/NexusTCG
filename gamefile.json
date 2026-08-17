@@ -73,6 +73,13 @@
             "overrideState": {
               "isHidden": "yes"
             }
+          },
+          {
+            "extract": {
+              "type": "Unidade Especial"
+            },
+            "from": "Deck",
+            "destination": "DeckEspecial"
           }
         ]
       },
@@ -123,10 +130,10 @@
           },
 
           "DeckEspecial": {
+            "displayedTitle": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "DECK",
-            "displayedTitle": "Deck Especial"
+            "alignment": "DECK"
           },
 
           "Vanguarda": {
