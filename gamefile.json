@@ -20,8 +20,7 @@
           { 
             "drawFromTop": "Deck", 
             "count": 9, 
-            "destination": "ZonaShield",
-            "overrideState": { "isHidden": "yes" }
+            "destination": "ZonaShield" 
           }
         ]
       },
