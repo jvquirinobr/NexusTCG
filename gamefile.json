@@ -4,7 +4,9 @@
   "deckBuilding": {
     "mainFilters": [
       "type",
-      "cost"
+      "cost",
+      "tags",
+      "effects"
     ],
     "formats": [
       {
