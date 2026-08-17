@@ -18,7 +18,7 @@
             "max": 60
           },
           {
-            "id": "DeckEspecial",
+            "id": "Side",
             "min": 0,
             "max": 10
           }
@@ -46,6 +46,12 @@
       ],
       "beforeGameStart": {
         "initialBoardSetup": [
+          {
+            "drawFromTop": "Side",
+            "count": "all",
+            "destination": "DeckEspecial",
+            "overrideState": { "isHidden": true }
+          },
           {
             "drawFromTop": "Deck",
             "count": 9,
