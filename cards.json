@@ -26,6 +26,24 @@
     ],
     "cost": "8"
   },
+    "DBST-1-002": {
+    "id": "DBST-1-001",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Son Goku Terror de Freeza"
+        },
+        "type": "Unidade Especial",
+        "cost": "8",
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Terror-de-Freeza.png"
+      }
+    },
+    "name": "Son Goku Terror de Freeza",
+    "type": "Unidade",
+    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z","Super Saiyajin"],
+    "effects": ["RAID","Impacto Nulo"],
+    "cost": "8"
+  },
   "DBST-1-021": {
     "id": "DBST-1-021",
     "face": {
@@ -46,4 +64,5 @@
     "effects": [],
     "cost": "X"
   }
+  
 }
