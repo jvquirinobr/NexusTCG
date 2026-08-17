@@ -18,8 +18,7 @@
     "trait": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Rush"]
-  }
-  {
+  },
   "DBST-1-002": {
     "id": "DBST-1-002",
     "face": {
@@ -39,6 +38,5 @@
     "trait": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Impacto Nulo"]
-  }
   }
 }
