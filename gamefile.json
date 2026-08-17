@@ -13,12 +13,12 @@
         "gameplay": "Standard",
         "sections": [
           {
-            "id": "Deck",
+            "id": "Unidade",
             "min": 20,
             "max": 60
           },
           {
-            "id": "DeckEspecial",
+            "id": "Unidade Especial",
             "min": 1,
             "max": 10
           }
@@ -47,13 +47,13 @@
       "beforeGameStart": {
         "initialBoardSetup": [
           {
-            "drawFromTop": "DeckEspecial",
+            "drawFromTop": "Unidade Especial",
             "count": "all",
             "destination": "DeckEspecial",
             "overrideState": { "isHidden": true }
           },
           {
-            "drawFromTop": "Deck",
+            "drawFromTop": "Unidade",
             "count": 9,
             "destination": "Shields",
             "overrideState": { "isHidden": true }
