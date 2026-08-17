@@ -1,171 +1,31 @@
 {
   "name": "Nexus TCG",
-
-  "deckBuilding": {
-    "mainFilters": [
-      "type",
-      "cost",
-      "tags",
-      "effects"
-    ],
-    "formats": [
-      {
-        "title": "Standard format",
-        "gameplay": "Standard"
-      }
-    ]
-  },
-
   "gameplay": {
     "Standard": {
-      "mulligan": {
-        "startingHandSize": 7
-      },
-
-      "newTurn": {
-        "drawOnStart": true,
-        "drawPerTurn": 1
-      },
-
-      "hideFacedDownCards": false,
-
-      "countersStartingValues": [],
-
-      "draggableTokens": [
-        {
-          "id": "Queimadura",
-          "name": "Queimadura",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png"
-        },
-        {
-          "id": "Veneno",
-          "name": "Veneno",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
-        },
-        {
-          "id": "Paralisia",
-          "name": "Paralisia",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png"
-        },
-        {
-          "id": "Congelamento",
-          "name": "Congelamento",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png"
-        },
-        {
-          "id": "Sangramento",
-          "name": "Sangramento",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
-        }
-      ],
-
-      "autoPlayFromHand": {
-        "Unidade": "Vanguarda",
-        "UnidadeRaid": "GROUP",
-        "Unidade Especial": "DeckEspecial"
-      },
-
       "beforeGameStart": {
         "initialBoardSetup": [
-          {
-            "drawFromTop": "Deck",
-            "count": 9,
-            "destination": "ShieldsArea",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          }
+          { "drawFromTop": "Deck", "count": 9, "destination": "ShieldsArea", "overrideState": { "isHidden": "yes" } }
         ]
       },
-
       "sections": {
         "layout": {
           "direction": "row",
           "content": [
-            {
-              "direction": "column",
-              "style": {
-                "width": "20%"
-              },
-              "content": [
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "ShieldsArea"
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "DeckEspecial"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "direction": "column",
-              "style": {
-                "width": "80%"
-              },
-              "content": [
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Vanguarda"
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "ZonaEnergia"
-                    }
-                  ]
-                }
-              ]
-            }
+            { "section": "ShieldsArea" },
+            { "section": "DeckEspecial" },
+            { "section": "Vanguarda" },
+            { "section": "ZonaEnergia" }
           ]
         },
-
         "sectionsDict": {
-          "ShieldsArea": {
-            "title": "Shields",
-            "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-
-          "DeckEspecial": {
-            "title": "Deck Especial",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "CENTER"
-          },
-
-          "Vanguarda": {
-            "title": "Vanguarda",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-
-          "ZonaEnergia": {
-            "title": "Zona de Energia",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          }
+          "ShieldsArea": { "title": "Shields", "isHidden": "yes", "height": "SMALL" },
+          "DeckEspecial": { "title": "Deck Especial", "isHidden": "yes", "height": "SMALL" },
+          "Vanguarda": { "title": "Vanguarda", "isHidden": "no", "height": "MEDIUM" },
+          "ZonaEnergia": { "title": "Zona de Energia", "isHidden": "no", "height": "MEDIUM" }
         }
       }
     }
   },
-
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/16/BackArt.png"
