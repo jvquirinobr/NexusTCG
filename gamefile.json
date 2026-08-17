@@ -34,7 +34,7 @@
         {
           "id": "Veneno",
           "name": "Veneno",
-         "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
         },
         {
           "id": "Paralisia",
@@ -63,7 +63,7 @@
             "count": 9,
             "destination": "Shields",
             "overrideState": {
-              "isHidden": "yes"
+              "isHidden": true
             }
           }
         ]
@@ -105,25 +105,25 @@
         "sectionsDict": {
           "Shields": {
             "displayedTitle": "Shields",
-            "isHidden": "yes",
+            "isHidden": true,
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
           "DeckEspecial": {
-            "isHidden": "yes",
+            "isHidden": true,
             "height": "MEDIUM",
             "alignment": "DECK",
             "displayedTitle": "Deck Especial"
           },
           "Vanguarda": {
             "displayedTitle": "Vanguarda",
-            "isHidden": "no",
+            "isHidden": false,
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "ZonaEnergia": {
             "displayedTitle": "Zona de Energia",
-            "isHidden": "no",
+            "isHidden": false,
             "height": "MEDIUM",
             "alignment": "CENTER"
           }
