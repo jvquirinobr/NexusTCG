@@ -93,6 +93,8 @@
               "content": [
                 {
                   "section": "Shields"
+                },
+                {
                   "section": "DeckEspecial"
                 }
               ]
@@ -123,9 +125,9 @@
             "alignment": "LEFT"
           },
 
-          "ZonaAbaixoShield": {
+          "DeckEspecial": {
             "displayedTitle": "Deck Especial",
-            "isHidden": "yes",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
