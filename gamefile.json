@@ -126,7 +126,15 @@
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Deck Especial"
+            "displayedTitle": "Deck Especial",
+            "actions": [
+              {
+                "id": "drawFromSpecialDeck",
+                "label": "Play",
+                "action": "DRAW_TO_HAND",
+                "source": "TOP"
+              }
+            ]
           },
 
           "Vanguarda": {
