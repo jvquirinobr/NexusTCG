@@ -19,7 +19,8 @@
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Rush"]
   }
-   "DBST-1-002": {
+  {
+  "DBST-1-002": {
     "id": "DBST-1-002",
     "face": {
       "front": {
@@ -39,4 +40,4 @@
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Impacto Nulo"]
   }
-}
+  }
