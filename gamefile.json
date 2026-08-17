@@ -207,16 +207,10 @@
                   "direction": "row",
                   "content": [
                     {
-                      "section": "Vanguarda",
-                      "style": {
-                        "width": "85%"
-                      }
+                      "section": "Vanguarda"
                     },
                     {
-                      "section": "DeckEspecial",
-                      "style": {
-                        "width": "15%"
-                      }
+                      "section": "DeckEspecial"
                     }
                   ]
                 },
@@ -224,10 +218,7 @@
                   "direction": "row",
                   "content": [
                     {
-                      "section": "ZonaEnergia",
-                      "style": {
-                        "width": "100%"
-                      }
+                      "section": "ZonaEnergia"
                     }
                   ]
                 }
@@ -301,7 +292,7 @@
             "title": "Deck Especial",
             "isHidden": "yes",
             "height": "SMALL",
-            "alignment": "Right"
+            "alignment": "RIGHT"
           }
         }
       }
