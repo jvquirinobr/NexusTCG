@@ -44,13 +44,13 @@
         },
         "type": "Unidade",
         "cost": "1",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Terror-de-Freeza.png"
+        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Em-busca-das-esferas-em-Namek.png"
       }
     },
     "name": "Kuririn Em busca das esferas em Namek",
     "type": "Unidade",
-    "tags": ["Humano", "Bom", "Artista Marcial", "Guerreiro Z"]
-    "effects": ["Despertar"]
+    "tags": ["Humano", "Bom", "Artista Marcial", "Guerreiro Z"],
+    "effects": ["Despertar"],
     "cost": "1"
   },
 }
