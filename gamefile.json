@@ -2,12 +2,12 @@
   "name": "Nexus TCG",
 
   "deckBuilding": {
-   "mainFilters": [
-  "type",
-  "cost",
-  "tags",
-  "effects"
-]
+    "mainFilters": [
+      "type",
+      "cost",
+      "tags",
+      "effects"
+    ],
     "formats": [
       {
         "title": "Standard format",
@@ -60,7 +60,7 @@
       ],
 
       "autoPlayFromHand": {
-        "unidade": "Vanguarda"
+        "Unidade": "Vanguarda"
       },
 
       "beforeGameStart": {
@@ -218,62 +218,52 @@
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield2": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield3": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield4": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield5": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield6": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield7": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield8": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Shield9": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
-
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-
           "ZonaEnergia": {
             "title": "Zona de Energia",
             "isHidden": "no",
