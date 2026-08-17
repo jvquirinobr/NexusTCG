@@ -15,23 +15,8 @@
           "Guerreiro Z",
           "Super Saiyajin",
           "Saiyajin",
-          "Coração Puro"
+          "Coração Puro",
+          "Raid"
         ],
         "Categoria": "Lutador",
         "image": "https://cdn.uploaded.photo/2026/08/16/1.png"
-      }
-    },
-    "name": "Son Goku",
-    "type": "Unidade",
-    "Tags": [     
-      "Luz",
-      "Alien",
-      "Artista Marcial",
-      "Guerreiro Z",
-      "Super Saiyajin",
-      "Saiyajin",
-      "Coração Puro"
-    ],
-    "cost": 8
-  }
-}
