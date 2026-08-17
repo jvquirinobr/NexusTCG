@@ -18,8 +18,6 @@
 
   "gameplay": {
     "Standard": {
-      "useStack": false,
-
       "mulligan": {
         "startingHandSize": 7
       },
