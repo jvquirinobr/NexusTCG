@@ -1,97 +1,273 @@
 {
   "name": "Nexus TCG",
+
   "deckBuilding": {
-    "mainFilters": ["Tipo", "Custo", "Unidade", "Evento", "Lutador", "Gladiador", "Atirador"],
+    "mainFilters": [
+      "Tipo",
+      "Custo",
+      "Unidade",
+      "Evento",
+      "Lutador",
+      "Gladiador",
+      "Atirador"
+    ],
     "formats": [
-      { "title": "Standard format", "gameplay": "Standard" }
+      {
+        "title": "Standard format",
+        "gameplay": "Standard"
+      }
     ]
   },
+
   "gameplay": {
     "Standard": {
-      "mulligan": { 
-        "startingHandSize": 7 
+      "mulligan": {
+        "startingHandSize": 7
       },
-      "newTurn": { 
-        "drawPerTurn": 1 
+
+      "newTurn": {
+        "drawPerTurn": 1
       },
+
       "hideFacedDownCards": true,
-      "beforeGameStart": {
-        "initialBoardSetup": [
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield1", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield2", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield3", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield4", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield5", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield6", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield7", "overrideState": { "isHidden": "yes"  } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield8", "overrideState": { "isHidden": "yes" } },
-          { "drawFromTop": "Deck", "count": 1, "destination": "Shield9", "overrideState": { "isHidden": "yes" } }
-        ]
-      },
+
       "countersStartingValues": [],
+
+      "draggableTokens": [
+        {
+          "id": "Queimadura",
+          "name": "Queimadura",
+          "image": ""
+        },
+        {
+          "id": "Veneno",
+          "name": "Veneno",
+          "image": ""
+        },
+        {
+          "id": "Paralisia",
+          "name": "Paralisia",
+          "image": ""
+        },
+        {
+          "id": "Congelamento",
+          "name": "Congelamento",
+          "image": ""
+        },
+        {
+          "id": "Sangramento",
+          "name": "Sangramento",
+          "image": ""
+        }
+      ],
+
       "autoPlayFromHand": {
         "_default": "Vanguarda"
       },
+
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield1",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield2",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield3",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield4",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield5",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield6",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield7",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield8",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Shield9",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          }
+        ]
+      },
+
       "sections": {
         "layout": {
           "direction": "row",
           "content": [
             {
               "direction": "column",
-              "style": { "width": "20%" },
+              "style": {
+                "width": "20%"
+              },
               "content": [
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "Shield1" },
-                    { "section": "Shield2" },
-                    { "section": "Shield3" }
+                    {
+                      "section": "Shield1"
+                    },
+                    {
+                      "section": "Shield2"
+                    },
+                    {
+                      "section": "Shield3"
+                    }
                   ]
                 },
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "Shield4" },
-                    { "section": "Shield5" },
-                    { "section": "Shield6" }
+                    {
+                      "section": "Shield4"
+                    },
+                    {
+                      "section": "Shield5"
+                    },
+                    {
+                      "section": "Shield6"
+                    }
                   ]
                 },
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "Shield7" },
-                    { "section": "Shield8" },
-                    { "section": "Shield9" }
+                    {
+                      "section": "Shield7"
+                    },
+                    {
+                      "section": "Shield8"
+                    },
+                    {
+                      "section": "Shield9"
+                    }
                   ]
                 }
               ]
             },
+
             {
               "direction": "column",
-              "style": { "width": "80%" },
+              "style": {
+                "width": "80%"
+              },
               "content": [
-                { "section": "Vanguarda" },
-                { "section": "ZonaEnergia" }
+                {
+                  "section": "Vanguarda"
+                },
+                {
+                  "section": "ZonaEnergia"
+                }
               ]
             }
           ]
         },
+
         "sectionsDict": {
-          "Shield1": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield2": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield3": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield4": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield5": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield6": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield7": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield8": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
-          "Shield9": { "isHidden": "yes", "height": "SMALL", "alignment": "LEFT" },
+          "Shield1": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield2": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield3": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield4": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield5": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield6": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield7": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield8": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+          "Shield9": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "LEFT"
+          },
+
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
+
           "ZonaEnergia": {
             "title": "Zona de Energia",
             "isHidden": "no",
@@ -102,6 +278,7 @@
       }
     }
   },
+
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/16/BackArt.png"
