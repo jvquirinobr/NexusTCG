@@ -40,15 +40,30 @@
               "direction": "column",
               "style": { "width": "25%" },
               "content": [
-                { "section": "Shield1" },
-                { "section": "Shield2" },
-                { "section": "Shield3" },
-                { "section": "Shield4" },
-                { "section": "Shield5" },
-                { "section": "Shield6" },
-                { "section": "Shield7" },
-                { "section": "Shield8" },
-                { "section": "Shield9" }
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Shield1" },
+                    { "section": "Shield2" },
+                    { "section": "Shield3" }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Shield4" },
+                    { "section": "Shield5" },
+                    { "section": "Shield6" }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Shield7" },
+                    { "section": "Shield8" },
+                    { "section": "Shield9" }
+                  ]
+                }
               ]
             },
             {
