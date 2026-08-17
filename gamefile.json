@@ -1,19 +1,7 @@
 {
   "name": "Nexus TCG",
-  "deckBuilding": {
-    "mainFilters": ["type", "cost", "tags", "effects"],
-    "formats": [{ "title": "Standard format", "gameplay": "Standard" }]
-  },
   "gameplay": {
     "Standard": {
-      "mulligan": { "startingHandSize": 7 },
-      "newTurn": { "drawOnStart": true, "drawPerTurn": 1 },
-      "hideFacedDownCards": false,
-      "autoPlayFromHand": {
-        "Unidade": "Vanguarda",
-        "UnidadeRaid": "GROUP",
-        "Unidade Especial": "DeckEspecial"
-      },
       "beforeGameStart": {
         "initialBoardSetup": [
           { "drawFromTop": "Deck", "count": 9, "destination": "ShieldsArea", "overrideState": { "isHidden": "yes" } }
@@ -23,49 +11,17 @@
         "layout": {
           "direction": "row",
           "content": [
-            {
-              "direction": "column",
-              "style": { "width": "20%" },
-              "content": [
-                { "section": "ShieldsArea" },
-                { "section": "DeckEspecial" }
-              ]
-            },
-            {
-              "direction": "column",
-              "style": { "width": "80%" },
-              "content": [
-                { "section": "Vanguarda" },
-                { "section": "ZonaEnergia" }
-              ]
-            }
+            { "section": "ShieldsArea" },
+            { "section": "DeckEspecial" },
+            { "section": "Vanguarda" },
+            { "section": "ZonaEnergia" }
           ]
         },
         "sectionsDict": {
-          "ShieldsArea": {
-            "title": "Shields",
-            "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "DeckEspecial": {
-            "title": "Deck Especial",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "CENTER"
-          },
-          "Vanguarda": {
-            "title": "Vanguarda",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "ZonaEnergia": {
-            "title": "Zona de Energia",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          }
+          "ShieldsArea": { "title": "Shields", "isHidden": "yes", "height": "SMALL" },
+          "DeckEspecial": { "title": "Deck Especial", "isHidden": "yes", "height": "SMALL" },
+          "Vanguarda": { "title": "Vanguarda", "isHidden": "no", "height": "MEDIUM" },
+          "ZonaEnergia": { "title": "Zona de Energia", "isHidden": "no", "height": "MEDIUM" }
         }
       }
     }
