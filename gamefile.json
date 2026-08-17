@@ -10,7 +10,19 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard"
+        "gameplay": "Standard",
+        "sections": [
+          {
+            "id": "Deck",
+            "min": 40,
+            "max": 60
+          },
+          {
+            "id": "DeckEspecial",
+            "min": 0,
+            "max": 10
+          }
+        ]
       }
     ]
   },
