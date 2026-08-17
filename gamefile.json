@@ -1,304 +1,75 @@
 {
   "name": "Nexus TCG",
-
   "deckBuilding": {
-    "mainFilters": [
-      "type",
-      "cost",
-      "tags",
-      "effects"
-    ],
-    "formats": [
-      {
-        "title": "Standard format",
-        "gameplay": "Standard"
-      }
-    ]
+    "mainFilters": ["type", "cost", "tags", "effects"],
+    "formats": [{ "title": "Standard format", "gameplay": "Standard" }]
   },
-
   "gameplay": {
     "Standard": {
-      "mulligan": {
-        "startingHandSize": 7
-      },
-
-      "newTurn": {
-        "drawOnStart": true,
-        "drawPerTurn": 1
-      },
-
+      "mulligan": { "startingHandSize": 7 },
+      "newTurn": { "drawOnStart": true, "drawPerTurn": 1 },
       "hideFacedDownCards": false,
-
-      "countersStartingValues": [],
-
-      "draggableTokens": [
-        {
-          "id": "Queimadura",
-          "name": "Queimadura",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png"
-        },
-        {
-          "id": "Veneno",
-          "name": "Veneno",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
-        },
-        {
-          "id": "Paralisia",
-          "name": "Paralisia",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png"
-        },
-        {
-          "id": "Congelamento",
-          "name": "Congelamento",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png"
-        },
-        {
-          "id": "Sangramento",
-          "name": "Sangramento",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
-        }
-      ],
-
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
         "UnidadeRaid": "GROUP",
         "Unidade Especial": "DeckEspecial"
       },
-
       "beforeGameStart": {
         "initialBoardSetup": [
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield1",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield2",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield3",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield4",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield5",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield6",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield7",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield8",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Shield9",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          }
+          { "drawFromTop": "Deck", "count": 9, "destination": "ShieldsArea", "overrideState": { "isHidden": "yes" } }
         ]
       },
-
       "sections": {
         "layout": {
           "direction": "row",
           "content": [
             {
               "direction": "column",
-              "style": {
-                "width": "20%"
-              },
+              "style": { "width": "20%" },
               "content": [
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Shield1"
-                    },
-                    {
-                      "section": "Shield2"
-                    },
-                    {
-                      "section": "Shield3"
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Shield4"
-                    },
-                    {
-                      "section": "Shield5"
-                    },
-                    {
-                      "section": "Shield6"
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Shield7"
-                    },
-                    {
-                      "section": "Shield8"
-                    },
-                    {
-                      "section": "Shield9"
-                    }
-                  ]
-                }
+                { "section": "ShieldsArea" },
+                { "section": "DeckEspecial" }
               ]
             },
-
             {
               "direction": "column",
-              "style": {
-                "width": "80%"
-              },
+              "style": { "width": "80%" },
               "content": [
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "Vanguarda"
-                    },
-                    {
-                      "section": "DeckEspecial"
-                    }
-                  ]
-                },
-                {
-                  "direction": "row",
-                  "content": [
-                    {
-                      "section": "ZonaEnergia"
-                    }
-                  ]
-                }
+                { "section": "Vanguarda" },
+                { "section": "ZonaEnergia" }
               ]
             }
           ]
         },
-
         "sectionsDict": {
-          "Shield1": {
+          "ShieldsArea": {
+            "title": "Shields",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "DeckEspecial": {
+            "title": "Deck Especial",
             "isHidden": "yes",
             "height": "SMALL",
-            "alignment": "LEFT"
+            "alignment": "CENTER"
           },
-          "Shield2": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-          "Shield3": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-          "Shield4": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-          "Shield5": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-          "Shield6": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-          "Shield7": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-          "Shield8": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-          "Shield9": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "LEFT"
-          },
-
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-
           "ZonaEnergia": {
             "title": "Zona de Energia",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
-          },
-
-          "DeckEspecial": {
-            "title": "Deck Especial",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "RIGHT"
           }
         }
       }
     }
   },
-
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/16/BackArt.png"
