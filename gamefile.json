@@ -17,11 +17,15 @@
       "hideFacedDownCards": true,
       "beforeGameStart": {
         "initialBoardSetup": [
-          { 
-            "drawFromTop": "Deck", 
-            "count": 9, 
-            "destination": "ZonaShield" 
-          }
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield1" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield2" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield3" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield4" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield5" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield6" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield7" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield8" },
+          { "drawFromTop": "Deck", "count": 1, "destination": "Shield9" }
         ]
       },
       "countersStartingValues": [],
@@ -33,12 +37,38 @@
           "direction": "row",
           "content": [
             { 
-              "section": "ZonaShield",
-              "style": { "width": "20%" }
+              "direction": "column",
+              "style": { "width": "30%" },
+              "content": [
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Shield1" },
+                    { "section": "Shield2" },
+                    { "section": "Shield3" }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Shield4" },
+                    { "section": "Shield5" },
+                    { "section": "Shield6" }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Shield7" },
+                    { "section": "Shield8" },
+                    { "section": "Shield9" }
+                  ]
+                }
+              ]
             },
             {
               "direction": "column",
-              "style": { "width": "80%" },
+              "style": { "width": "70%" },
               "content": [
                 { "section": "Vanguarda" },
                 { "section": "ZonaEnergia" }
@@ -47,12 +77,15 @@
           ]
         },
         "sectionsDict": {
-          "ZonaShield": {
-            "title": "Zona de Shield",
-            "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "DECK"
-          },
+          "Shield1": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield2": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield3": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield4": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield5": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield6": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield7": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield8": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
+          "Shield9": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
