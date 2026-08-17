@@ -1,52 +1,154 @@
 {
+  "name": "Nexus TCG",
+
   "deckBuilding": {
     "mainFilters": [
       "type",
       "cost",
-      "tags"
+      "tags",
+      "effects"
     ],
     "formats": [
       {
-        "title": "Constructed",
-        "gameplay": "Standard",
-        "customCategories": [
-          "Unidade Especial"
-        ],
-        "deckRuleset": "StandardRules"
+        "title": "Standard format",
+        "gameplay": "Standard"
       }
-    ],
-    "deckRulesets": {
-      "StandardRules": {
-        "general": {
-          "min": 40,
-          "max": 60,
-          "maxPerCard": 4
+    ]
+  },
+
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "startingHandSize": 7
+      },
+
+      "newTurn": {
+        "drawOnStart": true,
+        "drawPerTurn": 1
+      },
+
+      "hideFacedDownCards": true,
+
+      "countersStartingValues": [],
+
+      "draggableTokens": [
+        {
+          "id": "Queimadura",
+          "name": "Queimadura",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png"
         },
-        "categories": [
+        {
+          "id": "Veneno",
+          "name": "Veneno",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
+        },
+        {
+          "id": "Paralisia",
+          "name": "Paralisia",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png"
+        },
+        {
+          "id": "Congelamento",
+          "name": "Congelamento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png"
+        },
+        {
+          "id": "Sangramento",
+          "name": "Sangramento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
+        }
+      ],
+
+      "autoPlayFromHand": {
+        "Unidade": "Vanguarda",
+        "UnidadeRaid": "GROUP"
+      },
+
+      "beforeGameStart": {
+        "initialBoardSetup": [
           {
-            "category": "Unidade Especial",
-            "min": 0,
-            "max": 10
+            "drawFromTop": "Deck",
+            "count": 9,
+            "destination": "Shields",
+            "overrideState": {
+              "isHidden": "yes"
+            }
           }
         ]
+      },
+
+      "sections": {
+        "layout": {
+          "direction": "row",
+
+          "content": [
+            {
+              "direction": "column",
+              "style": {
+                "width": "20%"
+              },
+              "content": [
+                {
+                  "section": "Shields"
+                },
+                {
+                  "section": "DeckEspecial"
+                }
+              ]
+            },
+
+            {
+              "direction": "column",
+              "style": {
+                "width": "80%"
+              },
+              "content": [
+                {
+                  "section": "Vanguarda"
+                },
+                {
+                  "section": "ZonaEnergia"
+                }
+              ]
+            }
+          ]
+        },
+
+        "sectionsDict": {
+          "Shields": {
+            "displayedTitle": "Shields",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "LEFT"
+          },
+
+          "DeckEspecial": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Deck Especial"
+          },
+
+          "Vanguarda": {
+            "displayedTitle": "Vanguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+
+          "ZonaEnergia": {
+            "displayedTitle": "Zona de Energia",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
+        }
       }
     }
   },
-  "sections": {
-    "layout": {
-      "direction": "column",
-      "content": [
-        {
-          "section": "Board"
-        }
-      ]
-    },
-    "sectionsDict": {
-      "Board": {
-        "isHidden": "no",
-        "size": 100,
-        "alignment": "center"
-      }
-    }
+
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
+    "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png"
   }
 }
