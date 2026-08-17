@@ -3,7 +3,9 @@
     "id": "DBST-1-001",
     "face": {
       "front": {
-        "name": { "name": "Son Goku O Despertar do Super Saiyajin" },
+        "name": {
+          "name": "Son Goku O Despertar do Super Saiyajin"
+        },
         "type": "Unidade",
         "cost": "8",
         "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png"
@@ -11,23 +13,36 @@
     },
     "name": "Son Goku O Despertar do Super Saiyajin",
     "type": "Unidade",
-    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
-    "effects": ["RAID", "Rush"],
+    "tags": [
+      "Luz",
+      "Alien",
+      "Artista Marcial",
+      "Guerreiro Z",
+      "Super Saiyajin"
+    ],
+    "effects": [
+      "RAID",
+      "Rush"
+    ],
     "cost": "8"
   },
   "DBST-1-021": {
     "id": "DBST-1-021",
     "face": {
       "front": {
-        "name": { "name": "Porunga Diga os seus 3 desejos" },
-        "type": "Unidade",
+        "name": {
+          "name": "Porunga Diga os seus 3 desejos"
+        },
+        "type": "Unidade Especial",
         "cost": "X",
         "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
       }
     },
     "name": "Porunga Diga os seus 3 desejos",
     "type": "Unidade Especial",
-    "tags": ["Celestial"],
+    "tags": [
+      "Celestial"
+    ],
     "effects": [],
     "cost": "X"
   }
