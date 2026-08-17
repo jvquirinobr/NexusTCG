@@ -3,13 +3,9 @@
 
   "deckBuilding": {
     "mainFilters": [
-      "Tipo",
-      "Custo",
-      "Unidade",
-      "Evento",
-      "Lutador",
-      "Gladiador",
-      "Atirador"
+      "type",
+      "cost",
+      "tags"
     ],
     "formats": [
       {
@@ -26,6 +22,7 @@
       },
 
       "newTurn": {
+        "drawOnStart": true,
         "drawPerTurn": 1
       },
 
@@ -62,7 +59,7 @@
       ],
 
       "autoPlayFromHand": {
-        "_default": "Vanguarda"
+        "unidade": "Vanguarda"
       },
 
       "beforeGameStart": {
@@ -220,41 +217,49 @@
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield2": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield3": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield4": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield5": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield6": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield7": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield8": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "LEFT"
           },
+
           "Shield9": {
             "isHidden": "yes",
             "height": "SMALL",
