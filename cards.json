@@ -14,7 +14,8 @@
     "cost": 8,
     "trait": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
-    "keywords": ["RAID", "Rush"]
+    "keywords": ["RAID", "Rush"],
+    "classe": "Lutador"
   },
   "DBST-1-002": {
     "id": "DBST-1-002",
@@ -31,7 +32,8 @@
     "cost": 8,
     "trait": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
-    "keywords": ["RAID", "Impacto Nulo"]
+    "keywords": ["RAID", "Impacto Nulo"],
+    "classe": "Lutador"
   },
   "DBST-1-003": {
     "id": "DBST-1-003",
@@ -48,6 +50,43 @@
     "cost": 1,
     "trait": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": [""]
-  }
+    "keywords": [""],
+    "classe": "Lutador"
+  },
+    "DBST-1-004": {
+    "id": "DBST-1-004",
+    "face": {
+      "front": {
+        "name": { "name": "Kuririn - Luz ofuscante" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Luz-ofuscante.png"
+      }
+    },
+    "name": "Kuririn - Luz ofuscante",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Humano", "Bom"],
+    "tags": ["Artista Marcial", "Guerreiro Z"],
+    "keywords": [""],
+    "classe": "Lutador"
+    },
+        "DBST-1-005": {
+    "id": "DBST-1-005",
+    "face": {
+      "front": {
+        "name": { "name": "Son Gohan - Em busca das esferas em Namek" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Gohan-Em-busca-das-esferas-em-Namek.png"
+      }
+    },
+    "name": "Son Gohan - Em busca das esferas em Namek",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Híbrido", "Coração Puro"],
+    "tags": ["Artista Marcial", "Guerreiro Z"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador"
+        }
 }
