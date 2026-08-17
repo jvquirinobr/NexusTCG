@@ -18,6 +18,8 @@
 
   "gameplay": {
     "Standard": {
+      "useStack": false,
+
       "mulligan": {
         "startingHandSize": 7
       },
@@ -126,15 +128,7 @@
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Deck Especial",
-            "actions": [
-              {
-                "id": "drawFromSpecialDeck",
-                "label": "Play",
-                "action": "DRAW_TO_HAND",
-                "source": "TOP"
-              }
-            ]
+            "displayedTitle": "Deck Especial"
           },
 
           "Vanguarda": {
