@@ -27,7 +27,7 @@
         "drawPerTurn": 1
       },
 
-      "hideFacedDownCards": false,
+      "hideFacedDownCards": true,
 
       "countersStartingValues": [],
 
@@ -61,8 +61,7 @@
 
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
-        "UnidadeRaid": "GROUP",
-        "Unidade Especial": "DeckEspecial"
+        "UnidadeRaid": "GROUP"
       },
 
       "beforeGameStart": {
@@ -208,9 +207,6 @@
                 },
                 {
                   "section": "ZonaEnergia"
-                },
-                {
-                  "section": "DeckEspecial"
                 }
               ]
             }
@@ -276,12 +272,6 @@
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
-          },
-
-          "DeckEspecial": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "Right"
           }
         }
       }
