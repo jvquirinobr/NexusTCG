@@ -90,6 +90,9 @@
               "content": [
                 {
                   "section": "Shields"
+                },
+                {
+                  "section": "UnidadesEspeciais"
                 }
               ]
             },
@@ -105,9 +108,6 @@
                 },
                 {
                   "section": "ZonaEnergia"
-                },
-                {
-                  "section": "UnidadesEspeciais"
                 }
               ]
             }
@@ -122,6 +122,13 @@
             "alignment": "CENTER"
           },
 
+          "UnidadesEspeciais": {
+            "displayedTitle": "Unidades Especiais",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+
           "Vanguarda": {
             "displayedTitle": "Vanguarda",
             "isHidden": "no",
@@ -131,13 +138,6 @@
 
           "ZonaEnergia": {
             "displayedTitle": "Zona de Energia",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-
-          "UnidadesEspeciais": {
-            "displayedTitle": "Unidades Especiais",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
