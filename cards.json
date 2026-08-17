@@ -32,5 +32,22 @@
     "trait": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Impacto Nulo"]
+  },
+  "DBST-1-003": {
+    "id": "DBST-1-003",
+    "face": {
+      "front": {
+        "name": { "name": "Kuririn - Em busca das esferas em Namek" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Em-busca-das-esferas-em-Namek.png"
+      }
+    },
+    "name": "Kuririn - Em busca das esferas em Namek",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Humano", "Bom"],
+    "tags": ["Artista Marcial", "Guerreiro Z"],
+    "keywords": [""]
   }
 }
