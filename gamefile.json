@@ -42,7 +42,7 @@
             "height": "SMALL",
             "alignment": "CENTER"
           },
-          "Zona de Shield": {
+          "ZonaShield": {
             "title": "Zona de Shield",
             "isHidden": "yes",
             "height": "MEDIUM",
@@ -54,7 +54,7 @@
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "Zona de Energia": {
+          "ZonaEnergia": {
             "title": "Zona de Energia",
             "isHidden": "no",
             "height": "MEDIUM",
