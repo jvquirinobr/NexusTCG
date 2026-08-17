@@ -95,7 +95,7 @@
                   "section": "Shields"
                 },
                 {
-                  "section": "ZonaAbaixoShield"
+                  "section": "DeckEspecial"
                 }
               ]
             },
@@ -126,8 +126,8 @@
           },
 
           "ZonaAbaixoShield": {
-            "displayedTitle": "Zona Abaixo do Shield",
-            "isHidden": "no",
+            "displayedTitle": "Deck Especial",
+            "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
