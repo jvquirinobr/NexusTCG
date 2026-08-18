@@ -15,7 +15,10 @@
       {
         "title": "Standard format",
         "gameplay": "Standard",
-        "deckRuleset": "Limited"
+        "deckRuleset": "Limited",
+        "customCategories": [
+          "Deck Especial"
+        ]
       }
     ],
     "deckRulesets": {
@@ -30,6 +33,11 @@
             "category": "Sideboard",
             "min": 0,
             "max": 20
+          },
+          {
+            "category": "Deck Especial",
+            "min": 0,
+            "max": 10
           }
         ]
       }
@@ -96,13 +104,6 @@
             "overrideState": {
               "isHidden": "yes"
             }
-          },
-          {
-            "filter": {
-              "type": "Unidade Especial"
-            },
-            "destination": "DeckEspecial",
-            "moveFrom": "Deck"
           }
         ]
       },
@@ -181,6 +182,6 @@
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png",
-    "version": 2
+    "version": 1
   }
 }
