@@ -80,15 +80,6 @@
               "isHidden": "yes"
             }
           }
-        ],
-        "boardCategoriesInSideboard": ["Unidade Especial"],
-        "boardCardSelection": [
-          { 
-            "type": "Unidade Especial", 
-            "min": 0, 
-            "max": 30, 
-            "destination": "DeckEspecial" 
-          }
         ]
       },
 
