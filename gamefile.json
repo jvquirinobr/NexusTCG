@@ -70,19 +70,27 @@
         "UnidadeRaid": "GROUP"
       },
 
-      "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "drawFromTop": "Deck",
-            "count": 9,
-            "destination": "Shields",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          }
-        ]
-      },
-
+"beforeGameStart": {
+  "initialBoardSetup": [
+    {
+      "drawFromTop": "Deck",
+      "count": 9,
+      "destination": "Shields",
+      "overrideState": {
+        "isHidden": "yes"
+      }
+    }
+  ],
+  "boardCategoriesInSideboard": ["Unidade Especial"],
+  "boardCardSelection": [
+    { 
+      "type": "Unidade Especial", 
+      "min": 0, 
+      "max": 30, 
+      "destination": "DeckEspecial" 
+    }
+  ]
+}
       "sections": {
         "layout": {
           "direction": "row",
