@@ -52,7 +52,7 @@
     "cost": 1,
     "trait": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": [""],
+    "keywords": [],
     "classe": "Lutador",
     "universo": "Dragon Ball"
   },
@@ -71,7 +71,7 @@
     "cost": 1,
     "trait": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": [""],
+    "keywords": [],
     "classe": "Lutador",
     "universo": "Dragon Ball"
     },
