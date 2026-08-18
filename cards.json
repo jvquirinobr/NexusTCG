@@ -227,24 +227,6 @@
     "classe": "Lutador",
     "universo": "Dragon Ball"
   },
-              "DBST-1-013": {
-    "id": "DBST-1-013",
-    "face": {
-      "front": {
-        "name": { "name": "Son Goku - Semblante de um Super Saiyajin" },
-        "type": "Unidade",
-        "cost": 5,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Semblante-de-um-Super-Saiyajin.png"
-      }
-    },
-    "name": "Son Goku - Semblante de um Super Saiyajin",
-    "type": "Unidade",
-    "cost": 5,
-    "trait": ["Saiyajin", "Coração Puro"],
-    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Falso Super Saiyajin"],
-    "keywords": ["Rush", "TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball"
   },
    "DBST-1-014": {
     "id": "DBST-1-014",
