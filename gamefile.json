@@ -107,11 +107,6 @@
             "overrideState": {
               "isHidden": "yes"
             }
-          },
-          {
-            "drawFromTop": "Deck Especial",
-            "count": 10,
-            "destination": "DeckEspecial"
           }
         ]
       },
