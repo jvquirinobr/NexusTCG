@@ -88,22 +88,22 @@
       },
 
       "beforeGameStart": {
-"initialBoardSetup": [
-    {
-      "drawFromTop": "Deck",
-      "count": 9,
-      "destination": "Shields",
-      "overrideState": {
-        "isHidden": "yes"
-      }
-    },
-    {
-      "filter": {
-        "type": "Unidade Especial"
-      },
-      "destination": "DeckEspecial",
-      "moveFrom": "Deck"
-    }
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 9,
+            "destination": "Shields",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "filter": {
+              "type": "Unidade Especial"
+            },
+            "destination": "DeckEspecial",
+            "moveFrom": "Deck"
+          }
         ]
       },
 
@@ -156,7 +156,8 @@
             "displayedTitle": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "DECK"
+            "alignment": "DECK",
+            "isExtraDeck": true
           },
 
           "Vanguarda": {
