@@ -446,7 +446,7 @@
         "name": { "name": "Ben Tennyson - Relógio Esquisito" },
         "type": "Unidade",
         "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Ben-Tennyson---_E-Hora-do-Heroi.png"
+        "image": "https://cdn.uploaded.photo/2026/08/18/Ben-Tennyson---Relogio-Esquisito.png"
       }
     },
     "name": "Ben Tennyson - Relógio Esquisito",
@@ -726,7 +726,7 @@
         "name": { "name": "Fantasmático - Intangibilidade Fantasma" },
         "type": "Unidade",
         "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Fantasmatico---Heroi-Fantasmagorico.png"
+        "image": "https://cdn.uploaded.photo/2026/08/18/Fantasmatico---Intangibilidade-Fantasma-v2.png"
       }
     },
     "name": "Fantasmático - Intangibilidade Fantasma",
@@ -746,7 +746,7 @@
         "name": { "name": "Omnitrix Protótipo" },
         "type": "Evento",
         "cost": 3,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Fantasmatico---Heroi-Fantasmagorico.png"
+        "image": "https://cdn.uploaded.photo/2026/08/18/Omnitrix-Prototipo.png"
       }
     },
     "name": "Omnitrix Protótipo",
