@@ -16,7 +16,23 @@
         "title": "Standard format",
         "gameplay": "Standard"
       }
-    ]
+    ],
+    "deckRulesets": {
+      "Limited": {
+        "general": {
+          "min": 40,
+          "max": 50,
+          "maxPerCard": 4
+        },
+        "categories": [
+          {
+            "category": "Sideboard",
+            "min": 0,
+            "max": 20
+          }
+        ]
+      }
+    }
   },
 
   "gameplay": {
@@ -156,6 +172,6 @@
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png",
-    "version": 1
+    "version": 1.1
   }
 }
