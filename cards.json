@@ -15,7 +15,8 @@
     "trait": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Rush"],
-    "classe": "Lutador"
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
   },
   "DBST-1-002": {
     "id": "DBST-1-002",
@@ -33,7 +34,8 @@
     "trait": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Impacto Nulo"],
-    "classe": "Lutador"
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
   },
   "DBST-1-003": {
     "id": "DBST-1-003",
@@ -51,7 +53,8 @@
     "trait": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": [""],
-    "classe": "Lutador"
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
   },
     "DBST-1-004": {
     "id": "DBST-1-004",
@@ -69,7 +72,8 @@
     "trait": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": [""],
-    "classe": "Lutador"
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
     },
         "DBST-1-005": {
     "id": "DBST-1-005",
@@ -87,6 +91,26 @@
     "trait": ["Híbrido", "Coração Puro"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": ["TRIGGER"],
-    "classe": "Lutador"
-        }
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+        },
+          "DBST-1-006": {
+    "id": "DBST-1-006",
+    "face": {
+      "front": {
+        "name": { "name": "Piccolo - Assimilação com Nail" },
+        "type": "Unidade",
+        "cost": 3,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Piccolo-Assimilacao-com-Nail.png"
+      }
+    },
+    "name": "Piccolo - Assimilação com Nail",
+    "type": "Unidade",
+    "cost": 3,
+    "trait": ["Namekuseijin", "Bom"],
+    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
+    "keywords": ["Blocker"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
 }
