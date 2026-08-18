@@ -112,5 +112,290 @@
     "keywords": ["Blocker"],
     "classe": "Lutador",
     "universo": "Dragon Ball"
+  },
+    "DBST-1-007": {
+    "id": "DBST-1-007",
+    "face": {
+      "front": {
+        "name": { "name": "Vegeta - Ainda em busca da imortalidade" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Vegeta-Ainda-em-busca-da-imortalidade.png"
+      }
+    },
+    "name": "Vegeta - Ainda em busca da imortalidade",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Saiyajin", "Mal"],
+    "tags": ["Alien"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+      "DBST-1-008": {
+    "id": "DBST-1-008",
+    "face": {
+      "front": {
+        "name": { "name": "Vegeta - Último pedido do príncipe" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Vegeta-Ultimo-pedido-do-principe.png"
+      }
+    },
+    "name": "Vegeta - Último pedido do príncipe",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Saiyajin", "Mal"],
+    "tags": ["Alien"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+        "DBST-1-009": {
+    "id": "DBST-1-009",
+    "face": {
+      "front": {
+        "name": { "name": "Son Gohan - Fúria Oculta vaza novamente" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Gohan-Furia-Oculta-vaza-novamente.png"
+      }
+    },
+    "name": "Son Gohan - Fúria Oculta vaza novamente",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Híbrido", "Coração Puro"],
+    "tags": ["Artista Marcial", "Guerreiro Z"],
+    "keywords": ["Rush", "TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+          "DBST-1-010": {
+    "id": "DBST-1-010",
+    "face": {
+      "front": {
+        "name": { "name": "Son Goku - Ao caminho de Namek" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Ao-caminho-de-Namek.png"
+      }
+    },
+    "name": "Son Goku - Ao caminho de Namek",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Saiyajin", "Coração Puro"],
+    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+            "DBST-1-011": {
+    "id": "DBST-1-011",
+    "face": {
+      "front": {
+        "name": { "name": "Son Goku - Esperança da raça Saiyajin" },
+        "type": "Unidade",
+        "cost": 4,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Esperanca-da-raca-Saiyajin.png"
+      }
+    },
+    "name": "Son Goku - Esperança da raça Saiyajin",
+    "type": "Unidade",
+    "cost": 4,
+    "trait": ["Saiyajin", "Coração Puro"],
+    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
+    "keywords": ["Lock-On", "TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+  "DBST-1-012": {
+    "id": "DBST-1-012",
+    "face": {
+      "front": {
+        "name": { "name": "Son Goku - Resistência Bruta" },
+        "type": "Unidade",
+        "cost": 4,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Resistencia-bruta.png"
+      }
+    },
+    "name": "Son Goku - Resistência Bruta",
+    "type": "Unidade",
+    "cost": 4,
+    "trait": ["Saiyajin", "Coração Puro"],
+    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+              "DBST-1-013": {
+    "id": "DBST-1-013",
+    "face": {
+      "front": {
+        "name": { "name": "Son Goku - Semblante de um Super Saiyajin" },
+        "type": "Unidade",
+        "cost": 5,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Esperanca-da-raca-Saiyajin.png"
+      }
+    },
+    "name": "Son Goku - Semblante de um Super Saiyajin",
+    "type": "Unidade",
+    "cost": 5,
+    "trait": ["Saiyajin", "Coração Puro"],
+    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Falso Super Saiyajin"],
+    "keywords": ["Rush", "TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+   "DBST-1-014": {
+    "id": "DBST-1-014",
+    "face": {
+      "front": {
+        "name": { "name": "Bulma Briefs - Viagem para Namek" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Bulma-Briefs-Viagem-para-Namek.png"
+      }
+    },
+    "name": "Bulma Briefs - Viagem para Namek",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Humano", "Bom"],
+    "tags": ["Gênio", "Cientista"],
+    "keywords": ["Retaguarda", "TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+     "DBST-1-015": {
+    "id": "DBST-1-015",
+    "face": {
+      "front": {
+        "name": { "name": "Son Goku - Últimas forças contra Freeza" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku-ultimas-forcas-contra-Freeza.png"
+      }
+    },
+    "name": "Son Goku - Últimas forças contra Freeza",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Saiyajin", "Coração Puro"],
+    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+     "DBST-1-016": {
+    "id": "DBST-1-016",
+    "face": {
+      "front": {
+        "name": { "name": "Dende - Pequeno namekuseijin" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Dende-Pequeno-namekuseijin.png"
+      }
+    },
+    "name": "Dende - Pequeno namekuseijin",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Namekuseijin", "Coração Puro"],
+    "tags": ["Alien"],
+    "keywords": ["Retaguarda"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+     "DBST-1-017": {
+    "id": "DBST-1-017",
+    "face": {
+      "front": {
+        "name": { "name": "Grande Patriarca - Grande namekuseijin sábio" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Grande-Patriarca-Grande-namekuseijin-sabio.png"
+      }
+    },
+    "name": "Grande Patriarca - Grande namekuseijin sábio",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Namekuseijin", "Coração Puro"],
+    "tags": ["Alien"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
+  },
+     "DBST-1-018": {
+    "id": "DBST-1-018",
+    "face": {
+      "front": {
+        "name": { "name": "Genki Dama - Todas as forças dos seres vivos" },
+        "type": "Evento",
+        "cost": 7,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Genki-Dama-Todas-as-forcas-dos-seres-vivos.png"
+      }
+    },
+    "name": "Genki Dama - Todas as forças dos seres vivos",
+    "type": "Evento",
+    "cost": 7,
+    "trait": [],
+    "tags": ["Técnica", "Goku", "Sr.Kaioh"],
+    "keywords": [],
+    "classe": "",
+    "universo": "Dragon Ball"
+  },
+       "DBST-1-019": {
+    "id": "DBST-1-019",
+    "face": {
+      "front": {
+        "name": { "name": "Kaio-Ken!" },
+        "type": "Evento",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Kaio-Ken.png"
+      }
+    },
+    "name": "Kaio-Ken!",
+    "type": "Evento",
+    "cost": 2,
+    "trait": ["Relâmpago"],
+    "tags": ["Técnica", "Goku", "Sr.Kaioh"],
+    "keywords": [],
+    "classe": "",
+    "universo": "Dragon Ball"
+  },
+         "DBST-1-020": {
+    "id": "DBST-1-020",
+    "face": {
+      "front": {
+        "name": { "name": "Esferas do Dragão" },
+        "type": "Evento",
+        "cost": 3,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Esferas-do-Dragao.png"
+      }
+    },
+    "name": "Esferas do Dragão",
+    "type": "Evento",
+    "cost": 3,
+    "trait": ["Contínuo"],
+    "tags": ["Namek"],
+    "keywords": [],
+    "classe": "",
+    "universo": "Dragon Ball"
+  },
+     "DBST-1-021": {
+    "id": "DBST-1-021",
+    "face": {
+      "front": {
+        "name": { "name": "Porunga - Diga os seus 3 desejos" },
+        "type": "Unidade Especial",
+        "cost": "X",
+        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
+      }
+    },
+    "name": "Porunga - Diga os seus 3 desejos",
+    "type": "Unidade Especial",
+    "cost": "X",
+    "trait": ["Dragão"],
+    "tags": ["Celestial"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball"
   }
 }
