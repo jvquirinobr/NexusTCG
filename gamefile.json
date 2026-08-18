@@ -14,7 +14,8 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard"
+        "gameplay": "Standard",
+        "deckRuleset": "Limited"
       }
     ],
     "deckRulesets": {
