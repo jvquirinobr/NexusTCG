@@ -1,6 +1,6 @@
 {
   "name": "Nexus TCG",
-  "menuBackgroundImage": "https://i.pinimg.com/1200x/16/a8/3e/16a83ef05056c4dc36e250dec22a4f3b.jpg",
+  "menuBackgroundImage": "https://criticalhits.com.br/wp-content/uploads/2020/09/animes-japao-shonen-jump.jpeg"
 
   "deckBuilding": {
     "mainFilters": [
@@ -155,7 +155,6 @@
 
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/main/cards.json",
-    "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png",
-    "version": 2
+    "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png"
   }
 }
