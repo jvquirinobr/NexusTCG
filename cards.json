@@ -56,7 +56,7 @@
     "classe": "Lutador",
     "universo": "Dragon Ball"
   },
-    "DBST-1-004": {
+  "DBST-1-004": {
     "id": "DBST-1-004",
     "face": {
       "front": {
@@ -74,8 +74,8 @@
     "keywords": [],
     "classe": "Lutador",
     "universo": "Dragon Ball"
-    },
-        "DBST-1-005": {
+  },
+  "DBST-1-005": {
     "id": "DBST-1-005",
     "face": {
       "front": {
@@ -93,8 +93,8 @@
     "keywords": ["TRIGGER"],
     "classe": "Lutador",
     "universo": "Dragon Ball"
-        },
-          "DBST-1-006": {
+  },
+  "DBST-1-006": {
     "id": "DBST-1-006",
     "face": {
       "front": {
