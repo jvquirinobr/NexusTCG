@@ -15,10 +15,7 @@
       {
         "title": "Standard format",
         "gameplay": "Standard",
-        "deckRuleset": "Limited",
-        "customCategories": [
-          "Deck Especial"
-        ]
+        "deckRuleset": "Limited"
       }
     ],
     "deckRulesets": {
@@ -107,6 +104,10 @@
             "overrideState": {
               "isHidden": "yes"
             }
+          },
+          {
+            "drawFromTop": "Deck Especial",
+            "destination": "DeckEspecial"
           }
         ]
       },
