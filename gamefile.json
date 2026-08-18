@@ -96,6 +96,9 @@
       },
 
       "beforeGameStart": {
+        "boardCategoriesInSideboard": [
+          "Deck Especial"
+        ],
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
@@ -104,6 +107,11 @@
             "overrideState": {
               "isHidden": "yes"
             }
+          },
+          {
+            "drawFromTop": "Deck Especial",
+            "count": 10,
+            "destination": "DeckEspecial"
           }
         ]
       },
@@ -157,8 +165,7 @@
             "displayedTitle": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "DECK",
-            "isExtraDeck": true
+            "alignment": "DECK"
           },
 
           "Vanguarda": {
