@@ -1,6 +1,6 @@
 {
   "name": "Nexus TCG",
-  "menuBackgroundImage": "https://criticalhits.com.br/wp-content/uploads/2020/09/animes-japao-shonen-jump.jpeg"
+  "menuBackgroundImage": { "https://criticalhits.com.br/wp-content/uploads/2020/09/animes-japao-shonen-jump.jpeg" }
 
   "deckBuilding": {
     "mainFilters": [
