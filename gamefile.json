@@ -88,15 +88,22 @@
       },
 
       "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "drawFromTop": "Deck",
-            "count": 9,
-            "destination": "Shields",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          }
+"initialBoardSetup": [
+    {
+      "drawFromTop": "Deck",
+      "count": 9,
+      "destination": "Shields",
+      "overrideState": {
+        "isHidden": "yes"
+      }
+    },
+    {
+      "filter": {
+        "type": "Unidade Especial"
+      },
+      "destination": "DeckEspecial",
+      "moveFrom": "Deck"
+    }
         ]
       },
 
