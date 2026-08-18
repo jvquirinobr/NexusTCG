@@ -16,7 +16,8 @@
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Rush"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Super Raro"
   },
   "DBST-1-002": {
     "id": "DBST-1-002",
@@ -25,7 +26,7 @@
         "name": { "name": "Son Goku - Terror de Freeza" },
         "type": "Unidade",
         "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Terror-de-Freeza.png"
+        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku---Terror-de-Freeza.png"
       }
     },
     "name": "Son Goku - Terror de Freeza",
@@ -35,7 +36,8 @@
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Impacto Nulo"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Super Raro"
   },
   "DBST-1-003": {
     "id": "DBST-1-003",
@@ -54,7 +56,8 @@
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": [],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
   "DBST-1-004": {
     "id": "DBST-1-004",
@@ -72,8 +75,9 @@
     "trait": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "classe": "Atirador",
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
   "DBST-1-005": {
     "id": "DBST-1-005",
@@ -92,7 +96,8 @@
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": ["TRIGGER"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
   "DBST-1-006": {
     "id": "DBST-1-006",
@@ -111,7 +116,8 @@
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": ["Blocker"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
     "DBST-1-007": {
     "id": "DBST-1-007",
@@ -130,7 +136,8 @@
     "tags": ["Alien"],
     "keywords": [],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
       "DBST-1-008": {
     "id": "DBST-1-008",
@@ -149,7 +156,8 @@
     "tags": ["Alien"],
     "keywords": [],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
         "DBST-1-009": {
     "id": "DBST-1-009",
@@ -168,7 +176,8 @@
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": ["Rush", "TRIGGER"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
           "DBST-1-010": {
     "id": "DBST-1-010",
@@ -187,7 +196,8 @@
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": [],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
             "DBST-1-011": {
     "id": "DBST-1-011",
@@ -206,7 +216,8 @@
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": ["Lock-On", "TRIGGER"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
   "DBST-1-012": {
     "id": "DBST-1-012",
@@ -225,7 +236,8 @@
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": [],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
                 "DBST-1-013": {
     "id": "DBST-1-013",
@@ -244,7 +256,8 @@
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Falso Super Saiyajin"],
     "keywords": ["Rush", "TRIGGER"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
    "DBST-1-014": {
     "id": "DBST-1-014",
@@ -263,7 +276,8 @@
     "tags": ["Gênio", "Cientista"],
     "keywords": ["Retaguarda", "TRIGGER"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
      "DBST-1-015": {
     "id": "DBST-1-015",
@@ -282,7 +296,8 @@
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": ["TRIGGER"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
      "DBST-1-016": {
     "id": "DBST-1-016",
@@ -301,7 +316,8 @@
     "tags": ["Alien"],
     "keywords": ["Retaguarda"],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
      "DBST-1-017": {
     "id": "DBST-1-017",
@@ -320,7 +336,8 @@
     "tags": ["Alien"],
     "keywords": [],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
      "DBST-1-018": {
     "id": "DBST-1-018",
@@ -329,7 +346,7 @@
         "name": { "name": "Genki Dama - Todas as forças dos seres vivos" },
         "type": "Evento",
         "cost": 7,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Genki-Dama-Todas-as-forcas-dos-seres-vivos.png"
+        "image": "https://cdn.uploaded.photo/2026/08/18/Genki-Dama---Todas-as-forcas-dos-seres-vivos-corrigido.png"
       }
     },
     "name": "Genki Dama - Todas as forças dos seres vivos",
@@ -339,7 +356,8 @@
     "tags": ["Técnica", "Goku", "Sr.Kaioh"],
     "keywords": [],
     "classe": "",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Incomum"
   },
        "DBST-1-019": {
     "id": "DBST-1-019",
@@ -348,7 +366,7 @@
         "name": { "name": "Kaio-Ken!" },
         "type": "Evento",
         "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Kaio-Ken.png"
+        "image": "https://cdn.uploaded.photo/2026/08/18/Kaio-Ken-corrigido.png"
       }
     },
     "name": "Kaio-Ken!",
@@ -358,7 +376,8 @@
     "tags": ["Técnica", "Goku", "Sr.Kaioh"],
     "keywords": [],
     "classe": "",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Comum"
   },
          "DBST-1-020": {
     "id": "DBST-1-020",
@@ -367,7 +386,7 @@
         "name": { "name": "Esferas do Dragão" },
         "type": "Evento",
         "cost": 3,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Esferas-do-Dragao.png"
+        "image": "https://cdn.uploaded.photo/2026/08/18/Esferas-do-Dragao-corrigido.png"
       }
     },
     "name": "Esferas do Dragão",
@@ -377,7 +396,8 @@
     "tags": ["Namek"],
     "keywords": [],
     "classe": "",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Incomum"
   },
      "DBST-1-021": {
     "id": "DBST-1-021",
@@ -396,6 +416,347 @@
     "tags": ["Celestial"],
     "keywords": [],
     "classe": "Lutador",
-    "universo": "Dragon Ball"
+    "universo": "Dragon Ball",
+    "Raridade": "Raro"
+  },
+       "B10C-1-001": {
+    "id": "B10C-1-001",
+    "face": {
+      "front": {
+        "name": { "name": "Ben Tennyson - É Hora do Herói!" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Ben-Tennyson---_E-Hora-do-Heroi.png"
+      }
+    },
+    "name": "Ben Tennyson - É Hora do Herói!",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Humano", "Coração Puro"],
+    "tags": ["Herói", "Portador do Omnitrix"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Super Raro"
+  },
+       "B10C-1-002": {
+    "id": "B10C-1-002",
+    "face": {
+      "front": {
+        "name": { "name": "Ben Tennyson - Relógio Esquisito" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Ben-Tennyson---_E-Hora-do-Heroi.png"
+      }
+    },
+    "name": "Ben Tennyson - Relógio Esquisito",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Humano", "Coração Puro"],
+    "tags": ["Herói", "Portador do Omnitrix"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Super Raro"
+  },
+         "B10C-1-003": {
+    "id": "B10C-1-003",
+    "face": {
+      "front": {
+        "name": { "name": "Chama - Herói Flamejante" },
+        "type": "Unidade",
+        "cost": 3,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Chama---Heroi-Flamejante.png"
+      }
+    },
+    "name": "Chama - Herói Flamejante",
+    "type": "Unidade",
+    "cost": 3,
+    "trait": ["Pyronita", "Coração Puro"],
+    "tags": ["Piro", "Rocha", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+           "B10C-1-004": {
+    "id": "B10C-1-004",
+    "face": {
+      "front": {
+        "name": { "name": "Besta - Herói Selvagem" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Besta---Heroi-Selvagem-v2.png"
+      }
+    },
+    "name": "Besta Herói Selvagem",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Vulpimancer", "Coração Puro"],
+    "tags": ["Fera", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Trigger"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+             "B10C-1-005": {
+    "id": "B10C-1-005",
+    "face": {
+      "front": {
+        "name": { "name": "Diamante - Herói Resistente" },
+        "type": "Unidade",
+        "cost": 3,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Diamante---Heroi-Resistente.png"
+      }
+    },
+    "name": "Diamante - Herói Resistente",
+    "type": "Unidade",
+    "cost": 3,
+    "trait": ["Petrosapien", "Coração Puro"],
+    "tags": ["Rocha", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Blocker"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+    "B10C-1-006": {
+    "id": "B10C-1-006",
+    "face": {
+      "front": {
+        "name": { "name": "Diamante - Disparo de Cristais" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Diamante---Disparo-de-Cristais.png"
+      }
+    },
+    "name": "Diamante - Disparo de Cristais",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Petrosapien", "Coração Puro"],
+    "tags": ["Rocha", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Lock-On"],
+    "classe": "Atirador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  }, 
+      "B10C-1-007": {
+    "id": "B10C-1-007",
+    "face": {
+      "front": {
+        "name": { "name": "Diamante - Resistência Bruta" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Diamante---Resistencia-Bruta.png"
+      }
+    },
+    "name": "Diamante - Resistência Bruta",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Petrosapien", "Coração Puro"],
+    "tags": ["Rocha", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Lock-On"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+  "B10C-1-008": {
+    "id": "B10C-1-008",
+    "face": {
+      "front": {
+        "name": { "name": "XLR8 - Herói Velocista" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/XLR8---Heroi-Velocista.png"
+      }
+    },
+    "name": "XLR8 - Herói Velocista",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Kinecelerano", "Coração Puro"],
+    "tags": ["Réptil", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Rush", "TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+  "B10C-1-009": {
+    "id": "B10C-1-009",
+    "face": {
+      "front": {
+        "name": { "name": "Massa Cinzenta - Herói Intelectual" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Massa-Cinzenta---Heroi-Intelectual.png"
+      }
+    },
+    "name": "Massa Cinzenta - Herói Intelectual",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Galvaniano", "Coração Puro"],
+    "tags": ["Aqua", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+  "B10C-1-010": {
+    "id": "B10C-1-010",
+    "face": {
+      "front": {
+        "name": { "name": "Quatro Braços - Herói Musculoso" },
+        "type": "Unidade",
+        "cost": 4,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Quatro-Bracos---Heroi-Musculoso.png"
+      }
+    },
+    "name": "Quatro Braços - Herói Musculoso",
+    "type": "Unidade",
+    "cost": 4,
+    "trait": ["Tetramando", "Coração Puro"],
+    "tags": ["Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+    "B10C-1-011": {
+    "id": "B10C-1-011",
+    "face": {
+      "front": {
+        "name": { "name": "Insectóide - Herói Asqueroso" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Insectoide---Heroi-Asqueroso.png"
+      }
+    },
+    "name": "Insectóide - Herói Asqueroso",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Lepidopterrano", "Coração Puro"],
+    "tags": ["Inseto", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Voar"],
+    "classe": "Atirador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+  "B10C-1-012": {
+    "id": "B10C-1-012",
+    "face": {
+      "front": {
+        "name": { "name": "Aquático - Herói Subaquático" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Aquatico---Heroi-Subaquatico.png"
+      }
+    },
+    "name": "Aquático - Herói Subaquático",
+    "type": "Unidade",
+    "cost": 1,
+    "trait": ["Piscciss Volann", "Coração Puro"],
+    "tags": ["Peixe", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+  "B10C-1-013": {
+    "id": "B10C-1-013",
+    "face": {
+      "front": {
+        "name": { "name": "Aquático - Mandíbula Potente" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Aquatico---Heroi-Subaquatico-2.png"
+      }
+    },
+    "name": "Aquático - Mandíbula Potente",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Piscciss Volann", "Coração Puro"],
+    "tags": ["Peixe", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+  "B10C-1-014": {
+    "id": "B10C-1-014",
+    "face": {
+      "front": {
+        "name": { "name": "Ultra T - Herói Tecnorgânico" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Ultra-T---Heroi-Tecnorganico.png"
+      }
+    },
+    "name": "Ultra T - Herói Tecnorgânico",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Mecamorfo Galvânico", "Coração Puro"],
+    "tags": ["Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Anexo"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+  "B10C-1-015": {
+    "id": "B10C-1-015",
+    "face": {
+      "front": {
+        "name": { "name": "Fantasmático - Herói Fantasmagórico" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Fantasmatico---Heroi-Fantasmagorico.png"
+      }
+    },
+    "name": "Fantasmático - Herói Fantasmagórico",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Ectonurita", "Bom"],
+    "tags": ["Paranormal", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["Anexo"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+"B10C-1-016": {
+    "id": "B10C-1-016",
+    "face": {
+      "front": {
+        "name": { "name": "Fantasmático - Intangibilidade Fantasma" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Fantasmatico---Heroi-Fantasmagorico.png"
+      }
+    },
+    "name": "Fantasmático - Intangibilidade Fantasma",
+    "type": "Unidade",
+    "cost": 2,
+    "trait": ["Ectonurita", "Bom"],
+    "tags": ["Paranormal", "Alien", "Herói", "DNA do Omnitrix"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Ben 10",
+    "Raridade": "Comum"
+  },
+"B10C-1-017": {
+    "id": "B10C-1-017",
+    "face": {
+      "front": {
+        "name": { "name": "Omnitrix Protótipo" },
+        "type": "Evento",
+        "cost": 3,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Fantasmatico---Heroi-Fantasmagorico.png"
+      }
+    },
+    "name": "Omnitrix Protótipo",
+    "type": "Evento",
+    "cost": 3,
+    "trait": ["Contínuo"],
+    "tags": ["Objeto", "Criação de Azmuth"],
+    "keywords": [],
+    "classe": "",
+    "universo": "Ben 10",
+    "Raridade": "Incomum"
   }
 }
