@@ -6,7 +6,6 @@
     "mainFilters": [
       "type",
       "cost",
-      "power",
       "traits",
       "tags",
       "keywords"
@@ -101,7 +100,6 @@
       "sections": {
         "layout": {
           "direction": "row",
-
           "content": [
             {
               "direction": "column",
@@ -117,7 +115,6 @@
                 }
               ]
             },
-
             {
               "direction": "column",
               "style": {
@@ -142,21 +139,18 @@
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
-
           "DeckEspecial": {
             "displayedTitle": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK"
           },
-
           "Vanguarda": {
             "displayedTitle": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-
           "ZonaEnergia": {
             "displayedTitle": "Zona de Energia",
             "isHidden": "no",
