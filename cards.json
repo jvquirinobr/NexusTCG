@@ -46,7 +46,7 @@
     "cost": 1,
     "traits": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": [],
+    "keywords": ["Despertar"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
     "rarity": "Comum",
@@ -166,7 +166,7 @@
     "cost": 2,
     "traits": ["Híbrido", "Coração Puro"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": ["Rush", "TRIGGER"],
+    "keywords": ["Rush", "TRIGGER", "Despertar"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
     "rarity": "Comum",
@@ -286,7 +286,7 @@
     "cost": 2,
     "traits": ["Saiyajin", "Coração Puro"],
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": ["TRIGGER"],
+    "keywords": ["TRIGGER", "Despertar"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
     "rarity": "Comum",
@@ -413,6 +413,326 @@
         "type": "Unidade Especial",
         "cost": "X",
         "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
+      }
+    }
+  },
+  "JKIS-1-001": {
+    "id": "JKIS-1-001",
+    "name": "Itadori Yuji - Somos Iguais",
+    "type": "Unidade",
+    "cost": 6,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
+    "keywords": ["RAID", "Rush"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Super Raro",
+    "face": {
+      "front": {
+        "name": "Itadori Yuji - Somos Iguais",
+        "type": "Unidade",
+        "cost": 6,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Somos-Iguais.png"
+      }
+    }
+  },
+  "JKIS-1-002": {
+    "id": "JKIS-1-002",
+    "name": "Aoi Todo - My Brother",
+    "type": "Unidade",
+    "cost": 6,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
+    "keywords": ["RAID"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Super Raro",
+    "face": {
+      "front": {
+        "name": "Aoi Todo - My Brother",
+        "type": "Unidade",
+        "cost": 6,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Aoi-Todo---My-Brother.png"
+      }
+    }
+  },
+  "JKIS-1-003": {
+    "id": "JKIS-1-003",
+    "name": "Itadori Yuji - Calouro",
+    "type": "Unidade",
+    "cost": 1,
+    "traits": ["Humano", "Coração Puro"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Itadori Yuji - Calouro",
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Calouro.png"
+      }
+    }
+  },
+ "JKIS-1-004": {
+    "id": "JKIS-1-004",
+    "name": "Itadori Yuji - Primeira maldição herdada",
+    "type": "Unidade",
+    "cost": 1,
+    "traits": ["Humano", "Coração Puro"],
+    "tags": [],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Itadori Yuji - Primeira maldição herdada",
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Primeira-maldicao-herdada.png"
+      }
+    }
+  },
+  "JKIS-1-005": {
+    "id": "JKIS-1-005",
+    "name": "Itadori Yuji - Punhos Divergentes",
+    "type": "Unidade",
+    "cost": 3,
+    "traits": ["Humano", "Coração Puro"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Itadori Yuji - Punhos Divergentes",
+        "type": "Unidade",
+        "cost": 3,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Primeira-maldicao-herdada-2.png"
+      }
+    }
+  },
+  "JKIS-1-006": {
+    "id": "JKIS-1-006",
+    "name": "Itadori Yuji - Primeira missão",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Humano", "Coração Puro"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
+    "keywords": ["TRIGGER"],
+    "classe": "Gladiador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Itadori Yuji - Primeira missão",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Primeira-missao.png"
+      }
+    }
+  },
+  "JKIS-1-007": {
+    "id": "JKIS-1-007",
+    "name": "Aoi Todo - Treinamento inesperado",
+    "type": "Unidade",
+    "cost": 4,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
+    "keywords": ["Blocker"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Aoi Todo - Treinamento inesperado",
+        "type": "Unidade",
+        "cost": 4,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Aoi-Todo---Treinamento-inesperado.png"
+      }
+    }
+  },
+"JKIS-1-008": {
+    "id": "JKIS-1-008",
+    "name": "Kento Nanami - Hora extra",
+    "type": "Unidade",
+    "cost": 5,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Kento Nanami - Hora extra",
+        "type": "Unidade",
+        "cost": 5,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Kento-Nanami---Hora-extra.png"
+      }
+    }
+  },
+  "JKIS-1-009": {
+    "id": "JKIS-1-009",
+    "name": "Aoi Todo - Bater de palmas",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Aoi Todo - Bater de palmas",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Aoi-Todo---Bater-de-palmas.png"
+      }
+    }
+  },
+  "JKIS-1-010": {
+    "id": "JKIS-1-010",
+    "name": "Aoi Todo - Troca amaldiçoada",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Aoi Todo - Troca amaldiçoada",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Aoi-Todo---Troca-amaldicoada.png"
+      }
+    }
+  },
+  "JKIS-1-011": {
+    "id": "JKIS-1-011",
+    "name": "Nobara Kugisaki - Ressonância",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo"],
+    "keywords": [],
+    "classe": "Atirador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Nobara Kugisaki - Ressonância",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Nobara-Kugisaki---Ressonancia-correcao.png"
+      }
+    }
+  },
+  "JKIS-1-012": {
+    "id": "JKIS-1-012",
+    "name": "Nobara Kugisaki - Voodoo",
+    "type": "Unidade",
+    "cost": 1,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo"],
+    "keywords": ["Retaguarda"],
+    "classe": "Atirador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Nobara Kugisaki - Voodoo",
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Nobara-Kugisaki---Voodoo-correcao.png"
+      }
+    }
+  },
+    "JKIS-1-013": {
+    "id": "JKIS-1-013",
+    "name": "Ryomei Sukuna - Controle limitado",
+    "type": "Unidade",
+    "cost": 5,
+    "traits": ["Humano", "Pura Maldade"],
+    "tags": ["Mestre de Maldições", "Grau Especial", "Reencarnado"],
+    "keywords": ["TRIGGER", "Rush"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Ryomei Sukuna - Controle limitado",
+        "type": "Unidade",
+        "cost": 5,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Ryomei-Sukuna---Controle-limitado.png"
+      }
+    }
+  },
+   "JKIS-1-014": {
+    "id": "JKIS-1-014",
+    "name": "Ryomei Sukuna - O rei retornou",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Humano", "Pura Maldade"],
+    "tags": ["Mestre de Maldições", "Grau Especial", "Reencarnado"],
+    "keywords": ["Impacto", "Despertar"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Ryomei Sukuna - O rei retornou",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Ryomei-Sukuna---O-rei-retornou.png"
+      }
+    }
+  },
+  "JKIS-1-015": {
+    "id": "JKIS-1-015",
+    "name": "My Besto Friendo!",
+    "type": "Evento",
+    "cost": 2,
+    "traits": [],
+    "tags": ["Ação", "Itadori Yuji", "Aoi Todo"],
+    "keywords": ["Impacto", "Despertar"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Incomum",
+    "face": {
+      "front": {
+        "name": "My Besto Friendo!",
+        "type": "Evento",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/19/My-Besto-Friendo.png"
+      }
+    }
+  },
+     "JKIS-1-016": {
+    "id": "JKIS-1-016",
+    "name": "Satoru Gojo - Sensei alto astral",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Grau Especial"],
+    "keywords": ["Blocker", "Impacto Nulo"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Satoru Gojo - Sensei alto astral",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/19/Satoru-Goju---Sensei-alto-astral.png"
       }
     }
   }
