@@ -347,7 +347,6 @@
     "traits": [],
     "tags": ["Técnica", "Goku", "Sr.Kaioh"],
     "keywords": [],
-    "classe": "Evento",
     "universo": "Dragon Ball",
     "rarity": "Incomum",
     "face": {
@@ -367,7 +366,6 @@
     "traits": ["Relâmpago"],
     "tags": ["Técnica", "Goku", "Sr.Kaioh"],
     "keywords": [],
-    "classe": "Evento",
     "universo": "Dragon Ball",
     "rarity": "Comum",
     "face": {
@@ -387,7 +385,6 @@
     "traits": ["Contínuo"],
     "tags": ["Namek"],
     "keywords": [],
-    "classe": "Evento",
     "universo": "Dragon Ball",
     "rarity": "Incomum",
     "face": {
