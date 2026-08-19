@@ -1,422 +1,422 @@
 {
   "DBST-1-001": {
     "id": "DBST-1-001",
-    "face": {
-      "front": {
-        "name": { "name": "Son Goku - O Despertar do Super Saiyajin" },
-        "type": "Unidade",
-        "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png"
-      }
-    },
     "name": "Son Goku - O Despertar do Super Saiyajin",
     "type": "Unidade",
     "cost": 8,
-    "trait": ["Saiyajin", "Coração Puro"],
+    "traits": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Rush"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Super Raro"
+    "rarity": "Super Raro",
+    "face": {
+      "front": {
+        "name": "Son Goku - O Despertar do Super Saiyajin",
+        "type": "Unidade",
+        "cost": 8,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png"
+      }
+    }
   },
   "DBST-1-002": {
     "id": "DBST-1-002",
-    "face": {
-      "front": {
-        "name": { "name": "Son Goku - Terror de Freeza" },
-        "type": "Unidade",
-        "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku---Terror-de-Freeza.png"
-      }
-    },
     "name": "Son Goku - Terror de Freeza",
     "type": "Unidade",
     "cost": 8,
-    "trait": ["Saiyajin", "Coração Puro"],
+    "traits": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Impacto Nulo"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Super Raro"
+    "rarity": "Super Raro",
+    "face": {
+      "front": {
+        "name": "Son Goku - Terror de Freeza",
+        "type": "Unidade",
+        "cost": 8,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku---Terror-de-Freeza.png"
+      }
+    }
   },
   "DBST-1-003": {
     "id": "DBST-1-003",
+    "name": "Kuririn - Em busca das esferas em Namek",
+    "type": "Unidade",
+    "cost": 1,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Artista Marcial", "Guerreiro Z"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Kuririn - Em busca das esferas em Namek" },
+        "name": "Kuririn - Em busca das esferas em Namek",
         "type": "Unidade",
         "cost": 1,
         "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Em-busca-das-esferas-em-Namek.png"
       }
-    },
-    "name": "Kuririn - Em busca das esferas em Namek",
-    "type": "Unidade",
-    "cost": 1,
-    "trait": ["Humano", "Bom"],
-    "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    }
   },
   "DBST-1-004": {
     "id": "DBST-1-004",
-    "face": {
-      "front": {
-        "name": { "name": "Kuririn - Luz ofuscante" },
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Luz-ofuscante.png"
-      }
-    },
     "name": "Kuririn - Luz ofuscante",
     "type": "Unidade",
     "cost": 1,
-    "trait": ["Humano", "Bom"],
+    "traits": ["Humano", "Bom"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": [],
     "classe": "Atirador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Kuririn - Luz ofuscante",
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Luz-ofuscante.png"
+      }
+    }
   },
   "DBST-1-005": {
     "id": "DBST-1-005",
+    "name": "Son Gohan - Em busca das esferas em Namek",
+    "type": "Unidade",
+    "cost": 1,
+    "traits": ["Híbrido", "Coração Puro"],
+    "tags": ["Artista Marcial", "Guerreiro Z"],
+    "keywords": ["TRIGGER"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Son Gohan - Em busca das esferas em Namek" },
+        "name": "Son Gohan - Em busca das esferas em Namek",
         "type": "Unidade",
         "cost": 1,
         "image": "https://cdn.uploaded.photo/2026/08/17/Son-Gohan-Em-busca-das-esferas-em-Namek.png"
       }
-    },
-    "name": "Son Gohan - Em busca das esferas em Namek",
-    "type": "Unidade",
-    "cost": 1,
-    "trait": ["Híbrido", "Coração Puro"],
-    "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": ["TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    }
   },
   "DBST-1-006": {
     "id": "DBST-1-006",
-    "face": {
-      "front": {
-        "name": { "name": "Piccolo - Assimilação com Nail" },
-        "type": "Unidade",
-        "cost": 3,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Piccolo-Assimilacao-com-Nail.png"
-      }
-    },
     "name": "Piccolo - Assimilação com Nail",
     "type": "Unidade",
     "cost": 3,
-    "trait": ["Namekuseijin", "Bom"],
+    "traits": ["Namekuseijin", "Bom"],
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": ["Blocker"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-    "DBST-1-007": {
-    "id": "DBST-1-007",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Vegeta - Ainda em busca da imortalidade" },
+        "name": "Piccolo - Assimilação com Nail",
+        "type": "Unidade",
+        "cost": 3,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Piccolo-Assimilacao-com-Nail.png"
+      }
+    }
+  },
+  "DBST-1-007": {
+    "id": "DBST-1-007",
+    "name": "Vegeta - Ainda em busca da imortalidade",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Saiyajin", "Mal"],
+    "tags": ["Alien"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Vegeta - Ainda em busca da imortalidade",
         "type": "Unidade",
         "cost": 2,
         "image": "https://cdn.uploaded.photo/2026/08/17/Vegeta-Ainda-em-busca-da-imortalidade.png"
       }
-    },
-    "name": "Vegeta - Ainda em busca da imortalidade",
+    }
+  },
+  "DBST-1-008": {
+    "id": "DBST-1-008",
+    "name": "Vegeta - Último pedido do príncipe",
     "type": "Unidade",
     "cost": 2,
-    "trait": ["Saiyajin", "Mal"],
+    "traits": ["Saiyajin", "Mal"],
     "tags": ["Alien"],
     "keywords": [],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-      "DBST-1-008": {
-    "id": "DBST-1-008",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Vegeta - Último pedido do príncipe" },
+        "name": "Vegeta - Último pedido do príncipe",
         "type": "Unidade",
         "cost": 2,
         "image": "https://cdn.uploaded.photo/2026/08/17/Vegeta-Ultimo-pedido-do-principe.png"
       }
-    },
-    "name": "Vegeta - Último pedido do príncipe",
-    "type": "Unidade",
-    "cost": 2,
-    "trait": ["Saiyajin", "Mal"],
-    "tags": ["Alien"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    }
   },
-        "DBST-1-009": {
+  "DBST-1-009": {
     "id": "DBST-1-009",
-    "face": {
-      "front": {
-        "name": { "name": "Son Gohan - Fúria Oculta vaza novamente" },
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Gohan-Furia-Oculta-vaza-novamente.png"
-      }
-    },
     "name": "Son Gohan - Fúria Oculta vaza novamente",
     "type": "Unidade",
     "cost": 2,
-    "trait": ["Híbrido", "Coração Puro"],
+    "traits": ["Híbrido", "Coração Puro"],
     "tags": ["Artista Marcial", "Guerreiro Z"],
     "keywords": ["Rush", "TRIGGER"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-          "DBST-1-010": {
-    "id": "DBST-1-010",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Son Goku - Ao caminho de Namek" },
+        "name": "Son Gohan - Fúria Oculta vaza novamente",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Gohan-Furia-Oculta-vaza-novamente.png"
+      }
+    }
+  },
+  "DBST-1-010": {
+    "id": "DBST-1-010",
+    "name": "Son Goku - Ao caminho de Namek",
+    "type": "Unidade",
+    "cost": 2,
+    "traits": ["Saiyajin", "Coração Puro"],
+    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball",
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Son Goku - Ao caminho de Namek",
         "type": "Unidade",
         "cost": 2,
         "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Ao-caminho-de-Namek.png"
       }
-    },
-    "name": "Son Goku - Ao caminho de Namek",
-    "type": "Unidade",
-    "cost": 2,
-    "trait": ["Saiyajin", "Coração Puro"],
-    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    }
   },
-            "DBST-1-011": {
+  "DBST-1-011": {
     "id": "DBST-1-011",
-    "face": {
-      "front": {
-        "name": { "name": "Son Goku - Esperança da raça Saiyajin" },
-        "type": "Unidade",
-        "cost": 4,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Esperanca-da-raca-Saiyajin.png"
-      }
-    },
     "name": "Son Goku - Esperança da raça Saiyajin",
     "type": "Unidade",
     "cost": 4,
-    "trait": ["Saiyajin", "Coração Puro"],
+    "traits": ["Saiyajin", "Coração Puro"],
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": ["Lock-On", "TRIGGER"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    "rarity": "Comum",
+    "face": {
+      "front": {
+        "name": "Son Goku - Esperança da raça Saiyajin",
+        "type": "Unidade",
+        "cost": 4,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Esperanca-da-raca-Saiyajin.png"
+      }
+    }
   },
   "DBST-1-012": {
     "id": "DBST-1-012",
+    "name": "Son Goku - Resistência Bruta",
+    "type": "Unidade",
+    "cost": 4,
+    "traits": ["Saiyajin", "Coração Puro"],
+    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
+    "keywords": [],
+    "classe": "Lutador",
+    "universo": "Dragon Ball",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Son Goku - Resistência Bruta" },
+        "name": "Son Goku - Resistência Bruta",
         "type": "Unidade",
         "cost": 4,
         "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Resistencia-bruta.png"
       }
-    },
-    "name": "Son Goku - Resistência Bruta",
-    "type": "Unidade",
-    "cost": 4,
-    "trait": ["Saiyajin", "Coração Puro"],
-    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    }
   },
-                "DBST-1-013": {
+  "DBST-1-013": {
     "id": "DBST-1-013",
-    "face": {
-      "front": {
-        "name": { "name": "Son Goku - Semblante de um Super Saiyajin" },
-        "type": "Unidade",
-        "cost": 5,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Semblante-de-um-Super-Saiyajin.png"
-      }
-    },
     "name": "Son Goku - Semblante de um Super Saiyajin",
     "type": "Unidade",
     "cost": 5,
-    "trait": ["Saiyajin", "Coração Puro"],
+    "traits": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Falso Super Saiyajin"],
     "keywords": ["Rush", "TRIGGER"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-   "DBST-1-014": {
-    "id": "DBST-1-014",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Bulma Briefs - Viagem para Namek" },
+        "name": "Son Goku - Semblante de um Super Saiyajin",
         "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Bulma-Briefs-Viagem-para-Namek.png"
+        "cost": 5,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Semblante-de-um-Super-Saiyajin.png"
       }
-    },
+    }
+  },
+  "DBST-1-014": {
+    "id": "DBST-1-014",
     "name": "Bulma Briefs - Viagem para Namek",
     "type": "Unidade",
     "cost": 1,
-    "trait": ["Humano", "Bom"],
+    "traits": ["Humano", "Bom"],
     "tags": ["Gênio", "Cientista"],
     "keywords": ["Retaguarda", "TRIGGER"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-     "DBST-1-015": {
-    "id": "DBST-1-015",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Son Goku - Últimas forças contra Freeza" },
+        "name": "Bulma Briefs - Viagem para Namek",
         "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku-ultimas-forcas-contra-Freeza.png"
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Bulma-Briefs-Viagem-para-Namek.png"
       }
-    },
+    }
+  },
+  "DBST-1-015": {
+    "id": "DBST-1-015",
     "name": "Son Goku - Últimas forças contra Freeza",
     "type": "Unidade",
     "cost": 2,
-    "trait": ["Saiyajin", "Coração Puro"],
+    "traits": ["Saiyajin", "Coração Puro"],
     "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
     "keywords": ["TRIGGER"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-     "DBST-1-016": {
-    "id": "DBST-1-016",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Dende - Pequeno namekuseijin" },
+        "name": "Son Goku - Últimas forças contra Freeza",
         "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Dende-Pequeno-namekuseijin.png"
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku-ultimas-forcas-contra-Freeza.png"
       }
-    },
+    }
+  },
+  "DBST-1-016": {
+    "id": "DBST-1-016",
     "name": "Dende - Pequeno namekuseijin",
     "type": "Unidade",
     "cost": 1,
-    "trait": ["Namekuseijin", "Coração Puro"],
+    "traits": ["Namekuseijin", "Coração Puro"],
     "tags": ["Alien"],
     "keywords": ["Retaguarda"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-     "DBST-1-017": {
-    "id": "DBST-1-017",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Grande Patriarca - Grande namekuseijin sábio" },
+        "name": "Dende - Pequeno namekuseijin",
         "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Grande-Patriarca-Grande-namekuseijin-sabio.png"
+        "cost": 1,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Dende-Pequeno-namekuseijin.png"
       }
-    },
+    }
+  },
+  "DBST-1-017": {
+    "id": "DBST-1-017",
     "name": "Grande Patriarca - Grande namekuseijin sábio",
     "type": "Unidade",
     "cost": 2,
-    "trait": ["Namekuseijin", "Coração Puro"],
+    "traits": ["Namekuseijin", "Coração Puro"],
     "tags": ["Alien"],
     "keywords": [],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Comum"
-  },
-     "DBST-1-018": {
-    "id": "DBST-1-018",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Genki Dama - Todas as forças dos seres vivos" },
+        "name": "Grande Patriarca - Grande namekuseijin sábio",
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://cdn.uploaded.photo/2026/08/17/Grande-Patriarca-Grande-namekuseijin-sabio.png"
+      }
+    }
+  },
+  "DBST-1-018": {
+    "id": "DBST-1-018",
+    "name": "Genki Dama - Todas as forças dos seres vivos",
+    "type": "Evento",
+    "cost": 7,
+    "traits": [],
+    "tags": ["Técnica", "Goku", "Sr.Kaioh"],
+    "keywords": [],
+    "classe": "Evento",
+    "universo": "Dragon Ball",
+    "rarity": "Incomum",
+    "face": {
+      "front": {
+        "name": "Genki Dama - Todas as forças dos seres vivos",
         "type": "Evento",
         "cost": 7,
         "image": "https://cdn.uploaded.photo/2026/08/18/Genki-Dama---Todas-as-forcas-dos-seres-vivos-corrigido.png"
       }
-    },
-    "name": "Genki Dama - Todas as forças dos seres vivos",
+    }
+  },
+  "DBST-1-019": {
+    "id": "DBST-1-019",
+    "name": "Kaio-Ken!",
     "type": "Evento",
-    "cost": 7,
-    "trait": [],
+    "cost": 2,
+    "traits": ["Relâmpago"],
     "tags": ["Técnica", "Goku", "Sr.Kaioh"],
     "keywords": [],
-    "classe":"",
+    "classe": "Evento",
     "universo": "Dragon Ball",
-    "Raridade": "Incomum"
-  },
-       "DBST-1-019": {
-    "id": "DBST-1-019",
+    "rarity": "Comum",
     "face": {
       "front": {
-        "name": { "name": "Kaio-Ken!" },
+        "name": "Kaio-Ken!",
         "type": "Evento",
         "cost": 2,
         "image": "https://cdn.uploaded.photo/2026/08/18/Kaio-Ken-corrigido.png"
       }
-    },
-    "name": "Kaio-Ken!",
-    "type": "Evento",
-    "cost": 2,
-    "trait": ["Relâmpago"],
-    "tags": ["Técnica", "Goku", "Sr.Kaioh"],
-    "keywords": [],
-    "classe":"",
-    "universo": "Dragon Ball",
-    "Raridade": "Comum"
+    }
   },
-         "DBST-1-020": {
+  "DBST-1-020": {
     "id": "DBST-1-020",
+    "name": "Esferas do Dragão",
+    "type": "Evento",
+    "cost": 3,
+    "traits": ["Contínuo"],
+    "tags": ["Namek"],
+    "keywords": [],
+    "classe": "Evento",
+    "universo": "Dragon Ball",
+    "rarity": "Incomum",
     "face": {
       "front": {
-        "name": { "name": "Esferas do Dragão" },
+        "name": "Esferas do Dragão",
         "type": "Evento",
         "cost": 3,
         "image": "https://cdn.uploaded.photo/2026/08/18/Esferas-do-Dragao-corrigido.png"
       }
-    },
-    "name": "Esferas do Dragão",
-    "type": "Evento",
-    "cost": 3,
-    "trait": ["Contínuo"],
-    "tags": ["Namek"],
-    "keywords": [],
-    "classe":"",
-    "universo": "Dragon Ball",
-    "Raridade": "Incomum"
+    }
   },
-     "DBST-1-021": {
+  "DBST-1-021": {
     "id": "DBST-1-021",
-    "face": {
-      "front": {
-        "name": { "name": "Porunga - Diga os seus 3 desejos" },
-        "type": "Unidade Especial",
-        "cost": "X",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
-      }
-    },
     "name": "Porunga - Diga os seus 3 desejos",
     "type": "Unidade Especial",
-    "cost": "X",
-    "trait": ["Dragão"],
+    "cost": 0,
+    "traits": ["Dragão"],
     "tags": ["Celestial"],
     "keywords": [],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "Raridade": "Raro"
+    "rarity": "Raro",
+    "face": {
+      "front": {
+        "name": "Porunga - Diga os seus 3 desejos",
+        "type": "Unidade Especial",
+        "cost": "X",
+        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
+      }
+    }
   }
 }
