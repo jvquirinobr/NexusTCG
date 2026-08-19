@@ -62,6 +62,21 @@
           "id": "Sangramento",
           "name": "Sangramento",
           "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
+        },
+        {
+          "id": "Geral 1",
+          "name": "Geral 1",
+          "image": "https://cdn.uploaded.photo/2026/08/19/Geral-1.png"
+        },
+        {
+          "id": "Geral 2",
+          "name": "Geral 2",
+          "image": "https://cdn.uploaded.photo/2026/08/19/Geral-2.png"
+        },
+        {
+          "id": "Geral 3",
+          "name": "Geral 3",
+          "image": "https://cdn.uploaded.photo/2026/08/19/Geral-3.png"
         }
       ],
 
