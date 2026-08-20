@@ -91,8 +91,13 @@
         "Evento Contínuo": "ZonaDeEventos",
 "Unidade Especial": "Hand"      
       },
+"autoPlayFromDeckEspecial": {
+"Unidade Especial": "Hand"
+},
           "beforeGameStart": {
-        "boardCategoriesInSideboard": ["Unidade Especial"],
+        "boardCategoriesInSideboard": [
+          "Unidade Especial"
+        ],
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
@@ -191,7 +196,7 @@
             "alignment": "CENTER"
           },
           "Stack": {
-                                "isDefaultSection": true,
+                                "isDefaultSection": false,
                     "isHidden": "no",
                     "height": "HUGE",
                     "alignment": "NONE",
