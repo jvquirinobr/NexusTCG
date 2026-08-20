@@ -75,27 +75,24 @@
           "image": "https://cdn.uploaded.photo/2026/08/19/Geral-3.png"
         }
       ],
+      "categoriesAlreadyOnBoard": [
+        "DeckEspecial"
+      ],
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
         "UnidadeRaid": "GROUP",
-        "Evento": "ZonaDeEventos",
-        "Evento Relâmpago": "ZonaDeEventos",
-        "Evento Contínuo": "ZonaDeEventos"
+        "Evento": "Stack",
+        "Evento Relâmpago": "Stack",
+        "Evento Contínuo": "Stack",
+        "Unidade Especial": "Hand"
       },
       "autoPlayFromDeckEspecial": {
         "Unidade Especial": "Hand"
       },
       "autoPlayFromStack": {
-        "Unidade": "Hand",
-        "Evento": "Hand",
-        "Evento Relâmpago": "Hand",
-        "Evento Contínuo": "Hand",
-        "Unidade Especial": "Hand"
+        "Event": "Discard"
       },
       "beforeGameStart": {
-        "boardCategoriesInSideboard": [
-          "Unidade Especial"
-        ],
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
@@ -104,18 +101,13 @@
             "overrideState": {
               "isHidden": "yes"
             }
-          },
-          {
-            "drawFromTop": "Sideboard",
-            "count": 20,
-            "destination": "DeckEspecial",
-            "overrideState": {
-              "isHidden": "yes"
-            }
           }
         ]
       },
       "sections": {
+        "customSections": [
+          "DeckEspecial"
+        ],
         "layout": {
           "direction": "row",
           "content": [
@@ -161,35 +153,23 @@
           ]
         },
         "sectionsDict": {
-          "Shields": {
-            "displayedTitle": "Shields",
-            "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "LEFT"
-          },
-          "DeckEspecial": {
-            "displayedTitle": "Deck Especial",
-            "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "DECK"
-          },
-          "Vanguarda": {
-            "displayedTitle": "Vanguarda",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "ZonaEnergia": {
-            "displayedTitle": "Retaguarda",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "ZonaDeEventos": {
-            "displayedTitle": "Zona de Eventos",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
+          "Hand": {
+            "isDefaultSection": true,
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "autoPayFrom": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Discard": {
             "isDefaultSection": true,
@@ -202,6 +182,23 @@
             "noAutoPayTo": true,
             "opponentAlignment": false,
             "displayedTitle": "Descarte",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "isDefaultSection": true,
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -224,6 +221,37 @@
             "enterSpun": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Shields": {
+            "displayedTitle": "Shields",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "LEFT"
+          },
+          "DeckEspecial": {
+            "title": "DeckEspecial",
+            "displayedTitle": "Deck Especial",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK"
+          },
+          "Vanguarda": {
+            "displayedTitle": "Vanguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "ZonaEnergia": {
+            "displayedTitle": "Retaguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "ZonaDeEventos": {
+            "displayedTitle": "Zona de Eventos",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
           }
         }
       }
