@@ -75,24 +75,27 @@
           "image": "https://cdn.uploaded.photo/2026/08/19/Geral-3.png"
         }
       ],
-      "categoriesAlreadyOnBoard": [
-        "DeckEspecial"
-      ],
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
         "UnidadeRaid": "GROUP",
-        "Evento": "Stack",
-        "Evento Relâmpago": "Stack",
-        "Evento Contínuo": "Stack",
-        "Unidade Especial": "Hand"
+        "Evento": "ZonaDeEventos",
+        "Evento Relâmpago": "ZonaDeEventos",
+        "Evento Contínuo": "ZonaDeEventos"
       },
       "autoPlayFromDeckEspecial": {
         "Unidade Especial": "Hand"
       },
       "autoPlayFromStack": {
-        "Event": "Discard"
+        "Unidade": "Hand",
+        "Evento": "Hand",
+        "Evento Relâmpago": "Hand",
+        "Evento Contínuo": "Hand",
+        "Unidade Especial": "Hand"
       },
       "beforeGameStart": {
+        "boardCategoriesInSideboard": [
+          "Unidade Especial"
+        ],
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
@@ -101,13 +104,18 @@
             "overrideState": {
               "isHidden": "yes"
             }
+          },
+          {
+            "drawFromTop": "Sideboard",
+            "count": 20,
+            "destination": "DeckEspecial",
+            "overrideState": {
+              "isHidden": "yes"
+            }
           }
         ]
       },
       "sections": {
-        "customSections": [
-          "DeckEspecial"
-        ],
         "layout": {
           "direction": "row",
           "content": [
@@ -153,75 +161,6 @@
           ]
         },
         "sectionsDict": {
-          "Hand": {
-            "isDefaultSection": true,
-            "title": "Hand",
-            "isHidden": "opponent-only",
-            "height": "DEFAULT",
-            "alignment": "CENTER",
-            "autoPayFrom": true,
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Discard": {
-            "isDefaultSection": true,
-            "title": "Discard",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "opponentAlignment": false,
-            "displayedTitle": "Descarte",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Deck": {
-            "isDefaultSection": true,
-            "title": "Deck",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Stack": {
-            "isDefaultSection": true,
-            "title": "Stack",
-            "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "displayedTitle": "Pile",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "Shields": {
             "displayedTitle": "Shields",
             "isHidden": "yes",
@@ -229,7 +168,6 @@
             "alignment": "LEFT"
           },
           "DeckEspecial": {
-            "title": "DeckEspecial",
             "displayedTitle": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
@@ -252,6 +190,40 @@
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "Descarte",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Pile",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
