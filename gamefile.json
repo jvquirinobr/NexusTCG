@@ -10,12 +10,36 @@
       "tags",
       "keywords"
     ],
+
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard"
+        "gameplay": "Standard",
+        "customCategories": [
+          "Unidade Especial"
+        ],
+        "deckRuleset": "Standard"
       }
-    ]
+    ],
+
+    "deckRulesets": {
+      "Standard": {
+        "general": {
+          "min": 40,
+          "max": 50,
+          "maxPerCard": 4
+        },
+
+        "categories": [
+          {
+            "category": "Unidade Especial",
+            "min": 0,
+            "max": 20,
+            "maxPerCard": 4
+          }
+        ]
+      }
+    }
   },
 
   "gameplay": {
@@ -102,32 +126,34 @@
       },
 
       "sections": {
-        "categoriesAlreadyOnBoard": [
-          "Unidade Especial"
-        ],
-
         "layout": {
           "direction": "row",
+
           "content": [
             {
               "direction": "column",
+
               "style": {
                 "width": "20%"
               },
+
               "content": [
                 {
                   "section": "Shields"
                 },
                 {
-                  "section": "DeckEspecial"
+                  "section": "Unidade Especial"
                 }
               ]
             },
+
             {
               "direction": "column",
+
               "style": {
                 "width": "80%"
               },
+
               "content": [
                 {
                   "section": "Vanguarda"
@@ -140,6 +166,10 @@
           ]
         },
 
+        "categoriesAlreadyOnBoard": [
+          "Unidade Especial"
+        ],
+
         "sectionsDict": {
           "Shields": {
             "displayedTitle": "Shields",
@@ -148,7 +178,7 @@
             "alignment": "LEFT"
           },
 
-          "DeckEspecial": {
+          "Unidade Especial": {
             "displayedTitle": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
