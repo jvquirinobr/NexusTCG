@@ -85,6 +85,10 @@
       },
 
       "beforeGameStart": {
+        "boardCategoriesInSideboard": [
+          "Unidade Especial"
+        ],
+
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
@@ -98,6 +102,10 @@
       },
 
       "sections": {
+        "categoriesAlreadyOnBoard": [
+          "Unidade Especial"
+        ],
+
         "layout": {
           "direction": "row",
           "content": [
@@ -139,18 +147,21 @@
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
+
           "DeckEspecial": {
             "displayedTitle": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK"
           },
+
           "Vanguarda": {
             "displayedTitle": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
+
           "ZonaEnergia": {
             "displayedTitle": "Zona de Energia",
             "isHidden": "no",
