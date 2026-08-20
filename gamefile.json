@@ -12,10 +12,7 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard",
-        "customCategories": [
-          "Unidade Especial"
-        ]
+        "gameplay": "Standard"
       }
     ]
   },
