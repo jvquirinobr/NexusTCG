@@ -1,7 +1,6 @@
 {
   "name": "Nexus TCG",
   "menuBackgroundImage": "https://criticalhits.com.br/wp-content/uploads/2020/09/animes-japao-shonen-jump.jpeg",
-
   "deckBuilding": {
     "mainFilters": [
       "type",
@@ -76,20 +75,14 @@
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
         "UnidadeRaid": "GROUP",
-        "Evento": "Stack",
-        "Evento Relâmpago": "Stack",
-        "Evento Contínuo": "Stack"
+        "Evento": "ZonaDeEventos",
+        "Evento Relâmpago": "ZonaDeEventos",
+        "Evento Contínuo": "ZonaDeEventos"
       },
-      "autoPlayFromStack": {
-        "Evento": "Discard",
-        "Evento Relâmpago": "Discard",
-        "Evento Contínuo": "ZonaDeEventos",
-"Unidade Especial": "Hand"      
+      "autoPlayFromDeckEspecial": {
+        "Unidade Especial": "Hand"
       },
-"autoPlayFromDeckEspecial": {
-"Unidade Especial": "Hand"
-},
-          "beforeGameStart": {
+      "beforeGameStart": {
         "boardCategoriesInSideboard": [
           "Unidade Especial"
         ],
@@ -145,15 +138,15 @@
               ]
             },
             {
-            "direction": "column",
-            "style": {
-              "width": "20%"
-            },
-            "content": [
-              {
-                "section": "ZonaDeEventos"
-              }
-            ] 
+              "direction": "column",
+              "style": {
+                "width": "20%"
+              },
+              "content": [
+                {
+                  "section": "ZonaDeEventos"
+                }
+              ]
             }
           ]
         },
@@ -185,24 +178,25 @@
           "ZonaDeEventos": {
             "displayedTitle": "Zona de Eventos",
             "isHidden": "no",
-            "height":"MEDIUM",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "Stack": {
-                                "isDefaultSection": false,
-                    "isHidden": "no",
-                    "height": "HUGE",
-                    "alignment": "NONE",
-                    "isHorizontalAllowed": false,
-                    "isGroupForbidden": true,
-                    "displayedTitle": "Pile",
-                    "opponentAlignment": false,
-                    "noAutoPayTo": true,
-                    "noQuickActions": false,
-                    "enterTapped": false,
-                    "enterSpun": false,
-                    "keepTappedNewTurn": false,
-                    "showHiddenCardInHistory": false
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "Descarte",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
