@@ -120,9 +120,6 @@
                 },
                 {
                   "section": "DeckEspecial"
-                },
-                {
-                  "section": "Discard"
                 }
               ]
             },
@@ -148,6 +145,9 @@
               "content": [
                 {
                   "section": "ZonaDeEventos"
+                },
+                {
+                  "section": "Discard"
                 },
                 {
                   "section": "Stack"
@@ -191,8 +191,9 @@
             "isDefaultSection": true,
             "title": "Discard",
             "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE"
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Descarte"
           },
           "Stack": {
             "isDefaultSection": true,
@@ -238,7 +239,8 @@
             "title": "Retaguarda",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "displayedTitle": "Retaguarda"
           },
           "ZonaDeEventos": {
             "title": "Zona de Eventos",
