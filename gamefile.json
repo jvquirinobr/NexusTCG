@@ -82,6 +82,13 @@
       "autoPlayFromDeckEspecial": {
         "Unidade Especial": "Hand"
       },
+      "autoPlayFromStack": {
+        "Unidade": "Hand",
+        "Evento": "Hand",
+        "Evento Relâmpago": "Hand",
+        "Evento Contínuo": "Hand",
+        "Unidade Especial": "Hand"
+      },
       "beforeGameStart": {
         "boardCategoriesInSideboard": [
           "Unidade Especial"
@@ -198,7 +205,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-                    "Stack": {
+          "Stack": {
             "isDefaultSection": true,
             "title": "Stack",
             "isHidden": "no",
