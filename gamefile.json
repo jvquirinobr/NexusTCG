@@ -125,6 +125,10 @@
         ]
       },
 
+      "categoriesAlreadyOnBoard": [
+        "Unidade Especial"
+      ],
+
       "sections": {
         "layout": {
           "direction": "row",
@@ -165,10 +169,6 @@
             }
           ]
         },
-
-        "categoriesAlreadyOnBoard": [
-          "Unidade Especial"
-        ],
 
         "sectionsDict": {
           "Shields": {
