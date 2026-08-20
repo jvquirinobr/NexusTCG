@@ -1,7 +1,7 @@
 {
   "name": "Nexus TCG",
   "menuBackgroundImage": "https://criticalhits.com.br/wp-content/uploads/2020/09/animes-japao-shonen-jump.jpeg",
-
+  "cardRotation": 45,
   "deckBuilding": {
     "mainFilters": [
       "type",
@@ -13,12 +13,36 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard"
+        "gameplay": "Standard",
+        "customCategories": []
       }
     ]
   },
   "gameplay": {
     "Standard": {
+      "beforeGameStart": {
+        "boardCategoriesInSideboard": [
+          "Unidade Especial"
+        ],
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 9,
+            "destination": "Shields",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Sideboard",
+            "count": 20,
+            "destination": "DeckEspecial",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          }
+        ]
+      },
       "mulligan": {
         "startingHandSize": 7,
         "mulliganCount": {
@@ -73,47 +97,15 @@
           "image": "https://cdn.uploaded.photo/2026/08/19/Geral-3.png"
         }
       ],
-      "autoPlayFromHand": {
-        "Unidade": "Vanguarda",
-        "UnidadeRaid": "GROUP",
-        "Evento": "Stack",
-        "Evento Relâmpago": "Stack",
-        "Evento Contínuo": "Stack"
-      },
-      "autoPlayFromStack": {
-        "Evento": "Discard",
-        "Evento Relâmpago": "Discard",
-        "Evento Contínuo": "ZonaDeEventos",
-"Unidade Especial": "Hand"      
-      },
-"autoPlayFromDeckEspecial": {
-"Unidade Especial": "Hand"
-},
-          "beforeGameStart": {
-        "boardCategoriesInSideboard": [
-          "Unidade Especial"
-        ],
-        "initialBoardSetup": [
-          {
-            "drawFromTop": "Deck",
-            "count": 9,
-            "destination": "Shields",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          },
-          {
-            "drawFromTop": "Sideboard",
-            "count": 20,
-            "destination": "DeckEspecial",
-            "overrideState": {
-              "isHidden": "yes"
-            }
-          }
-        ]
-      },
-
       "sections": {
+        "customSections": [
+          "Shields",
+          "DeckEspecial",
+          "Vanguarda",
+          "ZonaEnergia",
+          "ZonaDeEventos",
+          "Discard"
+        ],
         "layout": {
           "direction": "row",
           "content": [
@@ -128,6 +120,9 @@
                 },
                 {
                   "section": "DeckEspecial"
+                },
+                {
+                  "section": "Discard"
                 }
               ]
             },
@@ -146,64 +141,110 @@
               ]
             },
             {
-            "direction": "column",
-            "style": {
-              "width": "20%"
-            },
-            "content": [
-              {
-                "section": "ZonaDeEventos"
-              }
-            ] 
+              "direction": "column",
+              "style": {
+                "width": "20%"
+              },
+              "content": [
+                {
+                  "section": "ZonaDeEventos"
+                },
+                {
+                  "section": "Stack"
+                }
+              ]
             }
           ]
         },
+        "autoPlayFromHand": {
+          "Unidade": "Vanguarda",
+          "UnidadeRaid": "GROUP",
+          "Evento": "Stack",
+          "Evento Relâmpago": "Stack",
+          "Evento Contínuo": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Evento": "Discard",
+          "Evento Relâmpago": "Discard",
+          "Evento Contínuo": "ZonaDeEventos",
+          "Unidade Especial": "Hand"
+        },
+        "autoPlayFromDeckEspecial": {
+          "Unidade Especial": "Hand"
+        },
         "sectionsDict": {
+          "Hand": {
+            "isDefaultSection": true,
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER"
+          },
+          "Deck": {
+            "isDefaultSection": true,
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE"
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE"
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "displayedTitle": "Pile"
+          },
+          "Sideboard": {
+            "isDefaultSection": true,
+            "title": "Sideboard",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE"
+          },
+          "Exile": {
+            "isDefaultSection": true,
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE"
+          },
           "Shields": {
-            "displayedTitle": "Shields",
+            "title": "Shields",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
           "DeckEspecial": {
-            "displayedTitle": "Deck Especial",
+            "title": "Deck Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK"
           },
           "Vanguarda": {
-            "displayedTitle": "Vanguarda",
+            "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "ZonaEnergia": {
-            "displayedTitle": "Retaguarda",
+            "title": "Retaguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "ZonaDeEventos": {
-            "displayedTitle": "Zona de Eventos",
+            "title": "Zona de Eventos",
             "isHidden": "no",
-            "height":"MEDIUM",
+            "height": "MEDIUM",
             "alignment": "CENTER"
-          },
-          "Stack": {
-                                "isDefaultSection": false,
-                    "isHidden": "no",
-                    "height": "HUGE",
-                    "alignment": "NONE",
-                    "isHorizontalAllowed": false,
-                    "isGroupForbidden": true,
-                    "displayedTitle": "Pile",
-                    "opponentAlignment": false,
-                    "noAutoPayTo": true,
-                    "noQuickActions": false,
-                    "enterTapped": false,
-                    "enterSpun": false,
-                    "keepTappedNewTurn": false,
-                    "showHiddenCardInHistory": false
           }
         }
       }
