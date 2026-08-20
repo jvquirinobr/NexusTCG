@@ -15,7 +15,7 @@
         "name": "Son Goku - O Despertar do Super Saiyajin",
         "type": "Unidade",
         "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-O-Despertar-do-Super-Saiyajin.png"
+        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-001.png"
       }
     }
   },
@@ -23,7 +23,7 @@
     "id": "DBST-1-002",
     "name": "Son Goku - Terror de Freeza",
     "type": "Unidade",
-    "cost": 8,
+    "cost": 7,
     "traits": ["Saiyajin", "Coração Puro"],
     "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
     "keywords": ["RAID", "Impacto Nulo"],
@@ -34,8 +34,8 @@
       "front": {
         "name": "Son Goku - Terror de Freeza",
         "type": "Unidade",
-        "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku---Terror-de-Freeza.png"
+        "cost": 7,
+        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-002.png"
       }
     }
   },
@@ -55,7 +55,7 @@
         "name": "Kuririn - Em busca das esferas em Namek",
         "type": "Unidade",
         "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Em-busca-das-esferas-em-Namek.png"
+        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-003.png"
       }
     }
   },
@@ -175,7 +175,7 @@
         "name": "Son Gohan - Fúria Oculta vaza novamente",
         "type": "Unidade",
         "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Gohan-Furia-Oculta-vaza-novamente.png"
+        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-009.png"
       }
     }
   },
@@ -343,9 +343,9 @@
     "id": "DBST-1-018",
     "name": "Genki Dama - Todas as forças dos seres vivos",
     "type": "Evento",
-    "cost": 7,
+    "cost": 6,
     "traits": [],
-    "tags": ["Técnica", "Goku", "Sr.Kaioh"],
+    "tags": ["Técnica", "Son Goku", "Sr.Kaioh"],
     "keywords": [],
     "universo": "Dragon Ball",
     "rarity": "Incomum",
@@ -353,8 +353,8 @@
       "front": {
         "name": "Genki Dama - Todas as forças dos seres vivos",
         "type": "Evento",
-        "cost": 7,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Genki-Dama---Todas-as-forcas-dos-seres-vivos-corrigido.png"
+        "cost": 6,
+        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-018-corrigido.png"
       }
     }
   },
@@ -364,7 +364,7 @@
     "type": "Evento",
     "cost": 2,
     "traits": ["Relâmpago"],
-    "tags": ["Técnica", "Goku", "Sr.Kaioh"],
+    "tags": ["Técnica", "Son Goku", "Sr.Kaioh"],
     "keywords": [],
     "universo": "Dragon Ball",
     "rarity": "Comum",
@@ -373,7 +373,7 @@
         "name": "Kaio-Ken!",
         "type": "Evento",
         "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Kaio-Ken-corrigido.png"
+        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-019-corrigido.png"
       }
     }
   },
@@ -632,7 +632,7 @@
         "name": "Nobara Kugisaki - Ressonância",
         "type": "Unidade",
         "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Nobara-Kugisaki---Ressonancia-correcao.png"
+        "image": "https://cdn.uploaded.photo/2026/08/20/JKIS-1-011.png"
       }
     }
   },
