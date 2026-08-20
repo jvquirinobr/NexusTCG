@@ -17,7 +17,6 @@
       }
     ]
   },
-
   "gameplay": {
     "Standard": {
       "mulligan": {
@@ -26,16 +25,12 @@
           "max": 0
         }
       },
-
       "newTurn": {
         "drawOnStart": false,
         "drawPerTurn": 1
       },
-
       "hideFacedDownCards": true,
-
       "countersStartingValues": [],
-
       "draggableTokens": [
         {
           "id": "Queimadura",
@@ -163,7 +158,6 @@
             }
           ]
         },
-
         "sectionsDict": {
           "Shields": {
             "displayedTitle": "Shields",
@@ -215,7 +209,6 @@
       }
     }
   },
-
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/refs/heads/main/cards.json",
     "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png"
