@@ -78,21 +78,20 @@
           "image": "https://cdn.uploaded.photo/2026/08/19/Geral-3.png"
         }
       ],
-
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
         "UnidadeRaid": "GROUP",
-        "Evento": "Stack"
+        "Evento": "Stack",
+        "Evento Relâmpago": "Stack",
+        "Evento Contínuo": "Stack"
       },
       "autoPlayFromStack": {
         "Evento": "Discard",
         "Evento Relâmpago": "Discard",
-        "Evento Contínuo": "Vanguarda",
+        "Evento Contínuo": "ZonaDeEventos",
 "Unidade Especial": "Hand"      
       },
-    
-
-      "beforeGameStart": {
+          "beforeGameStart": {
         "boardCategoriesInSideboard": ["Unidade Especial"],
         "initialBoardSetup": [
           {
@@ -190,6 +189,22 @@
             "isHidden": "no",
             "height":"MEDIUM",
             "alignment": "CENTER"
+          },
+          "Stack": {
+                                "isDefaultSection": true,
+                    "isHidden": "no",
+                    "height": "HUGE",
+                    "alignment": "NONE",
+                    "isHorizontalAllowed": false,
+                    "isGroupForbidden": true,
+                    "displayedTitle": "Pile",
+                    "opponentAlignment": false,
+                    "noAutoPayTo": true,
+                    "noQuickActions": false,
+                    "enterTapped": false,
+                    "enterSpun": false,
+                    "keepTappedNewTurn": false,
+                    "showHiddenCardInHistory": false
           }
         }
       }
