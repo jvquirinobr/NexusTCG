@@ -13,10 +13,7 @@
     "formats": [
       {
         "title": "Standard format",
-        "gameplay": "Standard",
-        "customCategories": [
-          "Unidade Especial"
-        ]
+        "gameplay": "Standard"
       }
     ]
   },
@@ -84,14 +81,19 @@
 
       "autoPlayFromHand": {
         "Unidade": "Vanguarda",
-        "UnidadeRaid": "GROUP"
+        "UnidadeRaid": "GROUP",
+        "Evento": "Stack"
       },
+      "autoPlayFromStack": {
+        "Evento": "Discard",
+        "Evento Relâmpago": "Discard",
+        "Evento Contínuo": "Vanguarda",
+"Unidade Especial": "Hand"      
+      },
+    
 
       "beforeGameStart": {
-        "boardCategoriesInSideboard": [
-          "Unidade Especial"
-        ],
-
+        "boardCategoriesInSideboard": ["Unidade Especial"],
         "initialBoardSetup": [
           {
             "drawFromTop": "Deck",
@@ -100,43 +102,41 @@
             "overrideState": {
               "isHidden": "yes"
             }
+          },
+          {
+            "drawFromTop": "Sideboard",
+            "count": 20,
+            "destination": "DeckEspecial",
+            "overrideState": {
+              "isHidden": "yes"
+            }
           }
         ]
       },
 
-      "categoriesAlreadyOnBoard": [
-        "Unidade Especial"
-      ],
-
       "sections": {
         "layout": {
           "direction": "row",
-
           "content": [
             {
               "direction": "column",
-
               "style": {
                 "width": "20%"
               },
-
               "content": [
                 {
                   "section": "Shields"
                 },
                 {
-                  "section": "Unidade Especial"
+                  "section": "DeckEspecial"
                 }
               ]
             },
-
             {
               "direction": "column",
-
               "style": {
                 "width": "80%"
               },
-
               "content": [
                 {
                   "section": "Vanguarda"
@@ -156,23 +156,20 @@
             "height": "MEDIUM",
             "alignment": "LEFT"
           },
-
-          "Unidade Especial": {
+          "DeckEspecial": {
             "displayedTitle": "Deck Especial",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK"
           },
-
           "Vanguarda": {
             "displayedTitle": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-
           "ZonaEnergia": {
-            "displayedTitle": "Zona de Energia",
+            "displayedTitle": "Retaguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
