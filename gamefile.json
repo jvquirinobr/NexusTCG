@@ -83,11 +83,11 @@
         "Unidade Especial": "Hand"
       },
       "autoPlayFromStack": {
-        "Unidade": "Hand",
-        "Evento": "Hand",
-        "Evento Relâmpago": "Hand",
-        "Evento Contínuo": "Hand",
-        "Unidade Especial": "Hand"
+       "Unidade": "Hand",
+       "Evento": "Hand",
+       "Evento Relâmpago": "Hand",
+       "Evento Contínuo": "Hand",
+       "Unidade Especial": "Hand"
       },
       "beforeGameStart": {
         "boardCategoriesInSideboard": [
