@@ -1,739 +1,233 @@
 {
-  "DBST-1-001": {
-    "id": "DBST-1-001",
-    "name": "Son Goku - O Despertar do Super Saiyajin",
-    "type": "Unidade",
-    "cost": 8,
-    "traits": ["Saiyajin", "Coração Puro"],
-    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
-    "keywords": ["RAID", "Rush"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Super Raro",
-    "face": {
-      "front": {
-        "name": "Son Goku - O Despertar do Super Saiyajin",
-        "type": "Unidade",
-        "cost": 8,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-001.png"
+  "name": "Nexus TCG",
+  "menuBackgroundImage": "https://criticalhits.com.br/wp-content/uploads/2020/09/animes-japao-shonen-jump.jpeg",
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost",
+      "traits",
+      "tags",
+      "keywords"
+    ],
+    "formats": [
+      {
+        "title": "Standard format",
+        "gameplay": "Standard"
+      }
+    ]
+  },
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "startingHandSize": 7,
+        "mulliganCount": {
+          "max": 0
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "drawPerTurn": 1
+      },
+      "hideFacedDownCards": true,
+      "countersStartingValues": [],
+      "draggableTokens": [
+        {
+          "id": "Queimadura",
+          "name": "Queimadura",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Queimadura.png"
+        },
+        {
+          "id": "Veneno",
+          "name": "Veneno",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.png"
+        },
+        {
+          "id": "Paralisia",
+          "name": "Paralisia",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.png"
+        },
+        {
+          "id": "Congelamento",
+          "name": "Congelamento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.png"
+        },
+        {
+          "id": "Sangramento",
+          "name": "Sangramento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.png"
+        },
+        {
+          "id": "Geral 1",
+          "name": "Geral 1",
+          "image": "https://cdn.uploaded.photo/2026/08/19/Geral-1.png"
+        },
+        {
+          "id": "Geral 2",
+          "name": "Geral 2",
+          "image": "https://cdn.uploaded.photo/2026/08/19/Geral-2.png"
+        },
+        {
+          "id": "Geral 3",
+          "name": "Geral 3",
+          "image": "https://cdn.uploaded.photo/2026/08/19/Geral-3.png"
+        }
+      ],
+      "autoPlayFromHand": {
+        "Unidade": "Vanguarda",
+        "UnidadeRaid": "GROUP",
+        "Evento": "ZonaDeEventos",
+        "Evento Relâmpago": "ZonaDeEventos",
+        "Evento Contínuo": "ZonaDeEventos"
+      },
+      "autoPlayFromDeckEspecial": {
+        "Unidade Especial": "Hand"
+      },
+      "autoPlayFromStack": {
+       "Unidade": "Hand",
+       "Evento": "Hand",
+       "Evento Relâmpago": "Hand",
+       "Evento Contínuo": "Hand",
+       "Unidade Especial": "Hand"
+      },
+      "beforeGameStart": {
+        "boardCategoriesInSideboard": [
+          "Unidade Especial"
+        ],
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 9,
+            "destination": "Shields",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          },
+          {
+            "drawFromTop": "Sideboard",
+            "count": 20,
+            "destination": "DeckEspecial",
+            "overrideState": {
+              "isHidden": "yes"
+            }
+          }
+        ]
+      },
+      "sections": {
+        "layout": {
+          "direction": "row",
+          "content": [
+            {
+              "direction": "column",
+              "style": {
+                "width": "20%"
+              },
+              "content": [
+                {
+                  "section": "Shields"
+                },
+                {
+                  "section": "DeckEspecial"
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "60%"
+              },
+              "content": [
+                {
+                  "section": "Vanguarda"
+                },
+                {
+                  "section": "ZonaEnergia"
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "20%"
+              },
+              "content": [
+                {
+                  "section": "ZonaDeEventos"
+                }
+              ]
+            }
+          ]
+        },
+        "sectionsDict": {
+          "Shields": {
+            "displayedTitle": "Shields",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "LEFT"
+          },
+          "DeckEspecial": {
+            "displayedTitle": "Deck Especial",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK"
+          },
+          "Vanguarda": {
+            "displayedTitle": "Vanguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "ZonaEnergia": {
+            "displayedTitle": "Retaguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "ZonaDeEventos": {
+            "displayedTitle": "Zona de Eventos",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "Descarte",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Pile",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
       }
     }
   },
-  "DBST-1-002": {
-    "id": "DBST-1-002",
-    "name": "Son Goku - Terror de Freeza",
-    "type": "Unidade",
-    "cost": 7,
-    "traits": ["Saiyajin", "Coração Puro"],
-    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
-    "keywords": ["RAID", "Impacto Nulo"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Super Raro",
-    "face": {
-      "front": {
-        "name": "Son Goku - Terror de Freeza",
-        "type": "Unidade",
-        "cost": 7,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-002.png"
-      }
-    }
-  },
-  "DBST-1-003": {
-    "id": "DBST-1-003",
-    "name": "Kuririn - Em busca das esferas em Namek",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": ["Despertar"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Kuririn - Em busca das esferas em Namek",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-003.png"
-      }
-    }
-  },
-  "DBST-1-004": {
-    "id": "DBST-1-004",
-    "name": "Kuririn - Luz ofuscante",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": [],
-    "classe": "Atirador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Kuririn - Luz ofuscante",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Kuririn-Luz-ofuscante.png"
-      }
-    }
-  },
-  "DBST-1-005": {
-    "id": "DBST-1-005",
-    "name": "Son Gohan - Em busca das esferas em Namek",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Híbrido", "Coração Puro"],
-    "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": ["TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Son Gohan - Em busca das esferas em Namek",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Gohan-Em-busca-das-esferas-em-Namek.png"
-      }
-    }
-  },
-  "DBST-1-006": {
-    "id": "DBST-1-006",
-    "name": "Piccolo - Assimilação com Nail",
-    "type": "Unidade",
-    "cost": 3,
-    "traits": ["Namekuseijin", "Bom"],
-    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": ["Blocker"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Piccolo - Assimilação com Nail",
-        "type": "Unidade",
-        "cost": 3,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Piccolo-Assimilacao-com-Nail.png"
-      }
-    }
-  },
-  "DBST-1-007": {
-    "id": "DBST-1-007",
-    "name": "Vegeta - Ainda em busca da imortalidade",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Saiyajin", "Mal"],
-    "tags": ["Alien"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Vegeta - Ainda em busca da imortalidade",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Vegeta-Ainda-em-busca-da-imortalidade.png"
-      }
-    }
-  },
-  "DBST-1-008": {
-    "id": "DBST-1-008",
-    "name": "Vegeta - Último pedido do príncipe",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Saiyajin", "Mal"],
-    "tags": ["Alien"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Vegeta - Último pedido do príncipe",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Vegeta-Ultimo-pedido-do-principe.png"
-      }
-    }
-  },
-  "DBST-1-009": {
-    "id": "DBST-1-009",
-    "name": "Son Gohan - Fúria Oculta vaza novamente",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Híbrido", "Coração Puro"],
-    "tags": ["Artista Marcial", "Guerreiro Z"],
-    "keywords": ["Rush", "TRIGGER", "Despertar"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Son Gohan - Fúria Oculta vaza novamente",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-009.png"
-      }
-    }
-  },
-  "DBST-1-010": {
-    "id": "DBST-1-010",
-    "name": "Son Goku - Ao caminho de Namek",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Saiyajin", "Coração Puro"],
-    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Son Goku - Ao caminho de Namek",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Ao-caminho-de-Namek.png"
-      }
-    }
-  },
-  "DBST-1-011": {
-    "id": "DBST-1-011",
-    "name": "Son Goku - Esperança da raça Saiyajin",
-    "type": "Unidade",
-    "cost": 4,
-    "traits": ["Saiyajin", "Coração Puro"],
-    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": ["Lock-On", "TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Son Goku - Esperança da raça Saiyajin",
-        "type": "Unidade",
-        "cost": 4,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Esperanca-da-raca-Saiyajin.png"
-      }
-    }
-  },
-  "DBST-1-012": {
-    "id": "DBST-1-012",
-    "name": "Son Goku - Resistência Bruta",
-    "type": "Unidade",
-    "cost": 4,
-    "traits": ["Saiyajin", "Coração Puro"],
-    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Son Goku - Resistência Bruta",
-        "type": "Unidade",
-        "cost": 4,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Resistencia-bruta.png"
-      }
-    }
-  },
-  "DBST-1-013": {
-    "id": "DBST-1-013",
-    "name": "Son Goku - Semblante de um Super Saiyajin",
-    "type": "Unidade",
-    "cost": 5,
-    "traits": ["Saiyajin", "Coração Puro"],
-    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Falso Super Saiyajin"],
-    "keywords": ["Rush", "TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Son Goku - Semblante de um Super Saiyajin",
-        "type": "Unidade",
-        "cost": 5,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Son-Goku-Semblante-de-um-Super-Saiyajin.png"
-      }
-    }
-  },
-  "DBST-1-014": {
-    "id": "DBST-1-014",
-    "name": "Bulma Briefs - Viagem para Namek",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Gênio", "Cientista"],
-    "keywords": ["Retaguarda", "TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Bulma Briefs - Viagem para Namek",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Bulma-Briefs-Viagem-para-Namek.png"
-      }
-    }
-  },
-  "DBST-1-015": {
-    "id": "DBST-1-015",
-    "name": "Son Goku - Últimas forças contra Freeza",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Saiyajin", "Coração Puro"],
-    "tags": ["Alien", "Artista Marcial", "Guerreiro Z"],
-    "keywords": ["TRIGGER", "Despertar"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Son Goku - Últimas forças contra Freeza",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Son-Goku-ultimas-forcas-contra-Freeza.png"
-      }
-    }
-  },
-  "DBST-1-016": {
-    "id": "DBST-1-016",
-    "name": "Dende - Pequeno namekuseijin",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Namekuseijin", "Coração Puro"],
-    "tags": ["Alien"],
-    "keywords": ["Retaguarda"],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Dende - Pequeno namekuseijin",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Dende-Pequeno-namekuseijin.png"
-      }
-    }
-  },
-  "DBST-1-017": {
-    "id": "DBST-1-017",
-    "name": "Grande Patriarca - Grande namekuseijin sábio",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Namekuseijin", "Coração Puro"],
-    "tags": ["Alien"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Grande Patriarca - Grande namekuseijin sábio",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/17/Grande-Patriarca-Grande-namekuseijin-sabio.png"
-      }
-    }
-  },
-  "DBST-1-018": {
-    "id": "DBST-1-018",
-    "name": "Genki Dama - Todas as forças dos seres vivos",
-    "type": "Evento",
-    "cost": 6,
-    "traits": [],
-    "tags": ["Técnica", "Son Goku", "Sr.Kaioh"],
-    "keywords": [],
-    "universo": "Dragon Ball",
-    "rarity": "Incomum",
-    "face": {
-      "front": {
-        "name": "Genki Dama - Todas as forças dos seres vivos",
-        "type": "Evento",
-        "cost": 6,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-018-corrigido.png"
-      }
-    }
-  },
-  "DBST-1-019": {
-    "id": "DBST-1-019",
-    "name": "Kaio-Ken!",
-    "type": "Evento",
-    "cost": 2,
-    "traits": ["Relâmpago"],
-    "tags": ["Técnica", "Son Goku", "Sr.Kaioh"],
-    "keywords": [],
-    "universo": "Dragon Ball",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Kaio-Ken!",
-        "type": "Evento",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-019-corrigido.png"
-      }
-    }
-  },
-  "DBST-1-020": {
-    "id": "DBST-1-020",
-    "name": "Esferas do Dragão",
-    "type": "Evento",
-    "cost": 3,
-    "traits": ["Contínuo"],
-    "tags": ["Namek"],
-    "keywords": [],
-    "universo": "Dragon Ball",
-    "rarity": "Incomum",
-    "face": {
-      "front": {
-        "name": "Esferas do Dragão",
-        "type": "Evento",
-        "cost": 3,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Esferas-do-Dragao-corrigido.png"
-      }
-    }
-  },
-  "DBST-1-021": {
-    "id": "DBST-1-021",
-    "name": "Porunga - Diga os seus 3 desejos",
-    "type": "Unidade Especial",
-    "cost": 0,
-    "traits": ["Dragão"],
-    "tags": ["Celestial"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Dragon Ball",
-    "rarity": "Raro",
-    "face": {
-      "front": {
-        "name": "Porunga - Diga os seus 3 desejos",
-        "type": "Unidade Especial",
-        "cost": "X",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
-      }
-    }
-  },
-  "JKIS-1-001": {
-    "id": "JKIS-1-001",
-    "name": "Itadori Yuji - Somos Iguais",
-    "type": "Unidade",
-    "cost": 6,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
-    "keywords": ["RAID", "Rush"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Super Raro",
-    "face": {
-      "front": {
-        "name": "Itadori Yuji - Somos Iguais",
-        "type": "Unidade",
-        "cost": 6,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Somos-Iguais.png"
-      }
-    }
-  },
-  "JKIS-1-002": {
-    "id": "JKIS-1-002",
-    "name": "Aoi Todo - My Brother",
-    "type": "Unidade",
-    "cost": 6,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
-    "keywords": ["RAID"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Super Raro",
-    "face": {
-      "front": {
-        "name": "Aoi Todo - My Brother",
-        "type": "Unidade",
-        "cost": 6,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Aoi-Todo---My-Brother.png"
-      }
-    }
-  },
-  "JKIS-1-003": {
-    "id": "JKIS-1-003",
-    "name": "Itadori Yuji - Calouro",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Humano", "Coração Puro"],
-    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
-    "keywords": ["TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Itadori Yuji - Calouro",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Calouro.png"
-      }
-    }
-  },
- "JKIS-1-004": {
-    "id": "JKIS-1-004",
-    "name": "Itadori Yuji - Primeira maldição herdada",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Humano", "Coração Puro"],
-    "tags": [],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Itadori Yuji - Primeira maldição herdada",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Primeira-maldicao-herdada.png"
-      }
-    }
-  },
-  "JKIS-1-005": {
-    "id": "JKIS-1-005",
-    "name": "Itadori Yuji - Punhos Divergentes",
-    "type": "Unidade",
-    "cost": 3,
-    "traits": ["Humano", "Coração Puro"],
-    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Itadori Yuji - Punhos Divergentes",
-        "type": "Unidade",
-        "cost": 3,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Primeira-maldicao-herdada-2.png"
-      }
-    }
-  },
-  "JKIS-1-006": {
-    "id": "JKIS-1-006",
-    "name": "Itadori Yuji - Primeira missão",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Humano", "Coração Puro"],
-    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
-    "keywords": ["TRIGGER"],
-    "classe": "Gladiador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Itadori Yuji - Primeira missão",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Primeira-missao.png"
-      }
-    }
-  },
-  "JKIS-1-007": {
-    "id": "JKIS-1-007",
-    "name": "Aoi Todo - Treinamento inesperado",
-    "type": "Unidade",
-    "cost": 4,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
-    "keywords": ["Blocker"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Aoi Todo - Treinamento inesperado",
-        "type": "Unidade",
-        "cost": 4,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Aoi-Todo---Treinamento-inesperado.png"
-      }
-    }
-  },
-"JKIS-1-008": {
-    "id": "JKIS-1-008",
-    "name": "Kento Nanami - Hora extra",
-    "type": "Unidade",
-    "cost": 5,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Tokyo"],
-    "keywords": ["TRIGGER"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Kento Nanami - Hora extra",
-        "type": "Unidade",
-        "cost": 5,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Kento-Nanami---Hora-extra.png"
-      }
-    }
-  },
-  "JKIS-1-009": {
-    "id": "JKIS-1-009",
-    "name": "Aoi Todo - Bater de palmas",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Aoi Todo - Bater de palmas",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/21/JKIS-1-009.png"
-      }
-    }
-  },
-  "JKIS-1-010": {
-    "id": "JKIS-1-010",
-    "name": "Aoi Todo - Troca amaldiçoada",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Kyoto"],
-    "keywords": [],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Aoi Todo - Troca amaldiçoada",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Aoi-Todo---Troca-amaldicoada.png"
-      }
-    }
-  },
-  "JKIS-1-011": {
-    "id": "JKIS-1-011",
-    "name": "Nobara Kugisaki - Ressonância",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Tokyo"],
-    "keywords": [],
-    "classe": "Atirador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Nobara Kugisaki - Ressonância",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/20/JKIS-1-011.png"
-      }
-    }
-  },
-  "JKIS-1-012": {
-    "id": "JKIS-1-012",
-    "name": "Nobara Kugisaki - Voodoo",
-    "type": "Unidade",
-    "cost": 1,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Tokyo"],
-    "keywords": ["Retaguarda"],
-    "classe": "Atirador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Nobara Kugisaki - Voodoo",
-        "type": "Unidade",
-        "cost": 1,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Nobara-Kugisaki---Voodoo-correcao.png"
-      }
-    }
-  },
-    "JKIS-1-013": {
-    "id": "JKIS-1-013",
-    "name": "Ryomei Sukuna - Controle limitado",
-    "type": "Unidade",
-    "cost": 5,
-    "traits": ["Humano", "Pura Maldade"],
-    "tags": ["Mestre de Maldições", "Grau Especial", "Reencarnado"],
-    "keywords": ["TRIGGER", "Rush"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Ryomei Sukuna - Controle limitado",
-        "type": "Unidade",
-        "cost": 5,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Ryomei-Sukuna---Controle-limitado.png"
-      }
-    }
-  },
-   "JKIS-1-014": {
-    "id": "JKIS-1-014",
-    "name": "Ryomei Sukuna - O rei retornou",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Humano", "Pura Maldade"],
-    "tags": ["Mestre de Maldições", "Grau Especial", "Reencarnado"],
-    "keywords": ["Impacto", "Despertar"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Ryomei Sukuna - O rei retornou",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Ryomei-Sukuna---O-rei-retornou.png"
-      }
-    }
-  },
-  "JKIS-1-015": {
-    "id": "JKIS-1-015",
-    "name": "My Besto Friendo!",
-    "type": "Evento",
-    "cost": 2,
-    "traits": [],
-    "tags": ["Ação", "Itadori Yuji", "Aoi Todo"],
-    "keywords": ["Impacto", "Despertar"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Incomum",
-    "face": {
-      "front": {
-        "name": "My Besto Friendo!",
-        "type": "Evento",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/19/My-Besto-Friendo.png"
-      }
-    }
-  },
-     "JKIS-1-016": {
-    "id": "JKIS-1-016",
-    "name": "Satoru Gojo - Sensei alto astral",
-    "type": "Unidade",
-    "cost": 2,
-    "traits": ["Humano", "Bom"],
-    "tags": ["Feiticeiro Jujutsu", "Grau Especial"],
-    "keywords": ["Blocker", "Impacto Nulo"],
-    "classe": "Lutador",
-    "universo": "Jujutsu Kaisen",
-    "rarity": "Comum",
-    "face": {
-      "front": {
-        "name": "Satoru Gojo - Sensei alto astral",
-        "type": "Unidade",
-        "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/19/Satoru-Goju---Sensei-alto-astral.png"
-      }
-    }
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/refs/heads/main/cards.json",
+    "cardBack": "https://cdn.uploaded.photo/2026/08/17/BackArt.png"
   }
 }
