@@ -354,7 +354,7 @@
         "name": "Genki Dama - Todas as forças dos seres vivos",
         "type": "Evento",
         "cost": 6,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-018-corrigido.png"
+        "image": "https://cdn.uploaded.photo/2026/08/22/JKIS-1-018-errata.png"
       }
     }
   },
@@ -373,7 +373,7 @@
         "name": "Kaio-Ken!",
         "type": "Evento",
         "cost": 2,
-        "image": "https://cdn.uploaded.photo/2026/08/20/DBST-1-019-corrigido.png"
+        "image": "https://cdn.uploaded.photo/2026/08/22/JKIS-1-019-errata.png"
       }
     }
   },
@@ -392,7 +392,7 @@
         "name": "Esferas do Dragão",
         "type": "Evento",
         "cost": 3,
-        "image": "https://cdn.uploaded.photo/2026/08/18/Esferas-do-Dragao-corrigido.png"
+        "image": "https://cdn.uploaded.photo/2026/08/22/DBST-1-020-errata.png"
       }
     }
   },
@@ -412,7 +412,7 @@
         "name": "Porunga - Diga os seus 3 desejos",
         "type": "Unidade Especial",
         "cost": "X",
-        "image": "https://cdn.uploaded.photo/2026/08/17/Porunga-Diga-os-seus-3-desejos.png"
+        "image": "https://cdn.uploaded.photo/2026/08/22/DBST-1-021-errata.png"
       }
     }
   },
@@ -703,8 +703,7 @@
     "cost": 2,
     "traits": [],
     "tags": ["Ação", "Itadori Yuji", "Aoi Todo"],
-    "keywords": ["Impacto", "Despertar"],
-    "classe": "Lutador",
+    "keywords": [],
     "universo": "Jujutsu Kaisen",
     "rarity": "Incomum",
     "face": {
@@ -724,7 +723,7 @@
     "traits": ["Humano", "Bom"],
     "tags": ["Feiticeiro Jujutsu", "Grau Especial"],
     "keywords": ["Blocker", "Impacto Nulo"],
-    "classe": "Lutador",
+    "classe": ["Lutador"],
     "universo": "Jujutsu Kaisen",
     "rarity": "Comum",
     "face": {
@@ -733,6 +732,25 @@
         "type": "Unidade",
         "cost": 2,
         "image": "https://cdn.uploaded.photo/2026/08/19/Satoru-Goju---Sensei-alto-astral.png"
+      }
+    }
+  },
+       "JKIS-1-017": {
+    "id": "JKIS-1-017",
+    "name": "Desmantelar Restringido",
+    "type": "Evento",
+    "cost": 6,
+    "traits": [],
+    "tags": ["Técnica", "Ryomei Sukuna"],
+    "keywords": [],
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Incomum",
+    "face": {
+      "front": {
+        "name": "Desmantelar Restringido",
+        "type": "Evento",
+        "cost": 6,
+        "image": "https://cdn.uploaded.photo/2026/08/22/JKIS-1-017.png"
       }
     }
   }
