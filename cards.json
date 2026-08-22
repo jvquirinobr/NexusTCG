@@ -19,7 +19,7 @@
       }
     }
   },
-    "DBST-1-001 UR": {
+    "DBST-1-001": {
     "id": "DBST-1-001",
     "name": "Son Goku - O Despertar do Super Saiyajin",
     "type": "Unidade",
@@ -29,7 +29,7 @@
     "keywords": ["RAID", "Rush"],
     "classe": "Lutador",
     "universo": "Dragon Ball",
-    "rarity": "Super Raro",
+    "rarity": "Ultra Raro",
     "face": {
       "front": {
         "name": "Son Goku - O Despertar do Super Saiyajin",
