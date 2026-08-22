@@ -19,8 +19,8 @@
       }
     }
   },
-    "DBST-1-001-UR": {
-    "id": "DBST-1-001-UR",
+    "DBST-1-001-Arte-Alternativa": {
+    "id": "DBST-1-001-Arte-Alternativa",
     "name": "Son Goku - O Despertar do Super Saiyajin",
     "type": "Unidade",
     "cost": 8,
@@ -456,8 +456,8 @@
       }
     }
   },
-    "JKIS-1-001": {
-    "id": "JKIS-1-001",
+    "JKIS-1-001-Arte-Alternativa": {
+    "id": "JKIS-1-001-Arte-Alternativa",
     "name": "Itadori Yuji - Somos Iguais",
     "type": "Unidade",
     "cost": 6,
