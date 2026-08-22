@@ -35,7 +35,7 @@
         "name": "Son Goku - O Despertar do Super Saiyajin",
         "type": "Unidade",
         "cost": 8,
-        "image": "https://i.pinimg.com/736x/57/08/2b/57082bc6a04cd042cdc5b6bbe456abfb.jpg"
+        "image": "https://i.pinimg.com/736x/9d/85/5f/9d855f723a74b614a1378342de1e81b2.jpg"
       }
     }
   },
@@ -453,6 +453,26 @@
         "type": "Unidade",
         "cost": 6,
         "image": "https://cdn.uploaded.photo/2026/08/19/Itadori-Yuji---Somos-Iguais.png"
+      }
+    }
+  },
+    "JKIS-1-001": {
+    "id": "JKIS-1-001",
+    "name": "Itadori Yuji - Somos Iguais",
+    "type": "Unidade",
+    "cost": 6,
+    "traits": ["Humano", "Bom"],
+    "tags": ["Feiticeiro Jujutsu", "Tokyo", "Receptáculo"],
+    "keywords": ["RAID", "Rush"],
+    "classe": "Lutador",
+    "universo": "Jujutsu Kaisen",
+    "rarity": "Super Raro",
+    "face": {
+      "front": {
+        "name": "Itadori Yuji - Somos Iguais",
+        "type": "Unidade",
+        "cost": 6,
+        "image": "https://i.pinimg.com/736x/5a/ff/7f/5aff7f64cfe8ccf9332d32d7aeec0e24.jpg"
       }
     }
   },
