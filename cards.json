@@ -19,6 +19,26 @@
       }
     }
   },
+    "DBST-1-001 UR": {
+    "id": "DBST-1-001",
+    "name": "Son Goku - O Despertar do Super Saiyajin",
+    "type": "Unidade",
+    "cost": 8,
+    "traits": ["Saiyajin", "Coração Puro"],
+    "tags": ["Luz", "Alien", "Artista Marcial", "Guerreiro Z", "Super Saiyajin"],
+    "keywords": ["RAID", "Rush"],
+    "classe": "Lutador",
+    "universo": "Dragon Ball",
+    "rarity": "Super Raro",
+    "face": {
+      "front": {
+        "name": "Son Goku - O Despertar do Super Saiyajin",
+        "type": "Unidade",
+        "cost": 8,
+        "image": "https://cdn.uploaded.photo/2026/08/22/DBST-1-001-UR.png"
+      }
+    }
+  },
   "DBST-1-002": {
     "id": "DBST-1-002",
     "name": "Son Goku - Terror de Freeza",
